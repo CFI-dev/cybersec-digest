@@ -1,0 +1,46 @@
+name: Update security digest
+
+on:
+  schedule:
+    # 毎時 05 分 (UTC)。GitHub の混雑時は数分〜十数分遅れることがあります。
+    - cron: "5 * * * *"
+  workflow_dispatch: {}   # 手動実行ボタンも有効化
+
+permissions:
+  contents: write         # 生成物とスナップショットをコミットするため
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect, diff and render
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python scripts/collect.py
+
+      - name: Commit digest and snapshot
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          if git diff --staged --quiet; then
+            echo "変更なし。コミットをスキップします。"
+          else
+            git commit -m "chore(digest): update $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

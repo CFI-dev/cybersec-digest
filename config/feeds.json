@@ -1,0 +1,15 @@
+{
+  "feeds": [
+    { "name": "Security NEXT", "url": "https://www.security-next.com/feed", "category": "breach" },
+    { "name": "ScanNetSecurity", "url": "https://scan.netsecurity.ne.jp/rss/index.rdf", "category": "news" },
+    { "name": "JPCERT/CC", "url": "https://www.jpcert.or.jp/rss/jpcert.rdf", "category": "advisory" },
+    { "name": "IPA 重要なセキュリティ情報", "url": "https://www.ipa.go.jp/security/rss/alert.rdf", "category": "advisory" },
+    { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "news" },
+    { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "category": "news" },
+    { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "news" },
+    { "name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "category": "advisory" },
+    { "name": "Unit 42", "url": "https://unit42.paloaltonetworks.com/feed/", "category": "news" },
+    { "name": "The Record", "url": "https://therecord.media/feed", "category": "news" },
+    { "name": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "category": "news" }
+  ]
+}

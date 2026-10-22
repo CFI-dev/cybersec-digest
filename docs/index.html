@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サイバーセキュリティ ダイジェスト</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+JP:wght@400;500;600&family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#e9eef1;
+    --surface:#ffffff;
+    --ink:#0e1a24;
+    --ink-soft:#51626f;
+    --rule:#c9d4db;
+    --accent:#c2410c;
+    --critical:#a31621;
+    --info:#1f5c7a;
+    --ok:#2f7d4f;
+    --fail:#b3261e;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+    --sans:"IBM Plex Sans JP","IBM Plex Sans",-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;
+    --serif:"IBM Plex Serif","Noto Serif JP",Georgia,serif;
+    --radius:3px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:var(--sans);
+    color:var(--ink);
+    background-color:var(--paper);
+    background-image:
+      linear-gradient(rgba(14,26,36,.045) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(14,26,36,.045) 1px,transparent 1px);
+    background-size:26px 26px;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.6;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px 72px}
+
+  /* ---------- masthead ---------- */
+  .masthead{padding:34px 0 22px;border-bottom:1px solid var(--ink)}
+  .eyebrow{
+    font-family:var(--mono);font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--accent);margin:0 0 10px;
+  }
+  .masthead h1{
+    font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,4vw,2.5rem);
+    margin:0;letter-spacing:-.01em;line-height:1.15;
+  }
+  .masthead .sub{color:var(--ink-soft);margin:8px 0 0;font-size:.92rem}
+  .stamp{
+    margin-top:16px;font-family:var(--mono);font-size:.78rem;color:var(--ink-soft);
+    display:flex;gap:14px;flex-wrap:wrap;
+  }
+  .stamp b{color:var(--ink);font-weight:600}
+
+  /* ---------- summary strip ---------- */
+  .stats{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
+    border:1px solid var(--rule);margin:22px 0 40px;
+  }
+  .stat{background:var(--surface);padding:16px 18px}
+  .stat .num{font-family:var(--mono);font-size:1.9rem;font-weight:600;line-height:1;letter-spacing:-.02em}
+  .stat .lbl{font-size:.74rem;color:var(--ink-soft);margin-top:7px;letter-spacing:.02em}
+  .stat.is-accent .num{color:var(--accent)}
+  .stat.is-critical .num{color:var(--critical)}
+
+  /* ---------- sections ---------- */
+  .section{margin:0 0 44px}
+  .sec-head{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule);padding-bottom:9px;margin-bottom:20px}
+  .sec-head h2{font-family:var(--serif);font-weight:600;font-size:1.15rem;margin:0}
+  .sec-head .count{font-family:var(--mono);font-size:.78rem;color:var(--ink-soft);margin-left:auto}
+
+  /* ---------- timeline ---------- */
+  .timeline{display:flex;flex-direction:column;gap:10px}
+  .item{
+    position:relative;display:flex;gap:0;background:var(--surface);
+    border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden;
+  }
+  .item-rail{width:4px;flex:0 0 4px;background:var(--info)}
+  .item.is-kev .item-rail{background:var(--accent)}
+  .item.is-critical .item-rail{background:var(--critical);width:6px;flex-basis:6px}
+  .item-body{padding:13px 16px;flex:1;min-width:0}
+  .item-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .chip{
+    font-family:var(--mono);font-size:.68rem;letter-spacing:.03em;color:var(--info);
+    border:1px solid var(--rule);border-radius:2px;padding:1px 6px;background:#f3f7f9;
+  }
+  .badge{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;padding:1px 6px;border-radius:2px}
+  .badge--new{background:var(--accent);color:#fff}
+  .badge--ransom{background:var(--critical);color:#fff}
+  .item-time{font-family:var(--mono);font-size:.72rem;color:var(--ink-soft);margin-left:auto}
+  .item-title{font-size:.98rem;font-weight:500;color:var(--ink);text-decoration:none;display:block}
+  a.item-title:hover{color:var(--accent);text-decoration:underline}
+  .item-desc{margin:6px 0 0;font-size:.85rem;color:var(--ink-soft)}
+  .empty{color:var(--ink-soft);font-size:.92rem;background:var(--surface);border:1px dashed var(--rule);padding:18px;border-radius:var(--radius)}
+
+  /* ---------- table ---------- */
+  table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--rule);font-size:.86rem}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);background:#f3f7f9}
+  tr:last-child td{border-bottom:none}
+  .mono{font-family:var(--mono)}
+  a{color:var(--info)}
+  .flag{font-family:var(--mono);font-size:.72rem;color:var(--ink-soft)}
+  .flag--on{color:var(--critical);font-weight:600}
+
+  /* ---------- feed status ---------- */
+  .feeds{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius)}
+  .feed-row{display:flex;align-items:center;gap:10px;padding:9px 14px;border-bottom:1px solid var(--rule);font-size:.86rem}
+  .feed-row:last-child{border-bottom:none}
+  .dot{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
+  .dot--ok{background:var(--ok)}
+  .dot--fail{background:var(--fail)}
+  .feed-name{font-weight:500}
+  .feed-note{margin-left:auto;font-family:var(--mono);font-size:.75rem;color:var(--ink-soft)}
+
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--rule);font-size:.78rem;color:var(--ink-soft)}
+  footer code{font-family:var(--mono);background:#f3f7f9;padding:1px 5px;border-radius:2px;border:1px solid var(--rule)}
+
+  @media (max-width:640px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .stat .num{font-size:1.5rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Security Intelligence Digest</p>
+    <h1>サイバーセキュリティ ダイジェスト</h1>
+    <p class="sub">CISA KEV(悪用確認済み脆弱性)と主要ニュース/注意喚起を毎時集約した、自分専用の1画面ダッシュボードです。</p>
+    <div class="stamp">
+      <span>最終更新: <b>2026-10-22 22:14 UTC+09:00</b></span>
+      <span>モード: <b>初回実行(ベースライン記録。今回の新着通知は行いません)</b></span>
+      <span>KEV 登録総数: <b>1,754</b></span>
+    </div>
+  </header>
+
+  <div class="stats">
+    <div class="stat is-accent"><div class="num">0</div><div class="lbl">KEV 新規(今回)</div></div>
+    <div class="stat"><div class="num">0</div><div class="lbl">ニュース 新規(今回)</div></div>
+    <div class="stat"><div class="num">11/11</div><div class="lbl">取得できたフィード</div></div>
+    <div class="stat is-critical"><div class="num">1,754</div><div class="lbl">CISA KEV 総登録数</div></div>
+  </div>
+
+  <section class="section">
+    <div class="sec-head">
+      <h2>今回の新着</h2>
+      <span class="count">KEV 0 件 ・ ニュース 0 件</span>
+    </div>
+    <div class="timeline">
+<p class="empty">今回の実行で新着はありませんでした。前回までの検出分は下の履歴に残ります。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <h2>CISA KEV — 最近追加された悪用確認済み脆弱性</h2>
+      <span class="count">最新 25 件</span>
+    </div>
+    <table>
+      <thead><tr><th>CVE</th><th>追加日</th><th>製品</th><th>ランサム</th></tr></thead>
+      <tbody>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-106931" target="_blank" rel="noopener">CVE-2026-106931</a></td>
+  <td>2026-10-20</td>
+  <td>EG Secure Solutions / SiteGuard Server Edition</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-96656" target="_blank" rel="noopener">CVE-2026-96656</a></td>
+  <td>2026-10-20</td>
+  <td>Plex / Media Server</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-96655" target="_blank" rel="noopener">CVE-2026-96655</a></td>
+  <td>2026-10-20</td>
+  <td>Plex / Media Server</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-96654" target="_blank" rel="noopener">CVE-2026-96654</a></td>
+  <td>2026-10-20</td>
+  <td>Plex / Media Server</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-96652" target="_blank" rel="noopener">CVE-2026-96652</a></td>
+  <td>2026-10-20</td>
+  <td>Plex / Media Server</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-110936" target="_blank" rel="noopener">CVE-2026-110936</a></td>
+  <td>2026-10-20</td>
+  <td>Siemens / Software Center</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-102764" target="_blank" rel="noopener">CVE-2026-102764</a></td>
+  <td>2026-10-16</td>
+  <td>BeyondTrust / Remote Support</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2025-61624" target="_blank" rel="noopener">CVE-2025-61624</a></td>
+  <td>2026-10-16</td>
+  <td>Fortinet / Multiple Products</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-21589" target="_blank" rel="noopener">CVE-2026-21589</a></td>
+  <td>2026-10-15</td>
+  <td>Atlassian / Multiple Products</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-105134" target="_blank" rel="noopener">CVE-2026-105134</a></td>
+  <td>2026-10-14</td>
+  <td>Ahsay / AhsayCBS</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-76519" target="_blank" rel="noopener">CVE-2026-76519</a></td>
+  <td>2026-10-14</td>
+  <td>Cisco / Secure Email Gateway</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-105133" target="_blank" rel="noopener">CVE-2026-105133</a></td>
+  <td>2026-10-14</td>
+  <td>Ahsay / AhsayCBS</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-0322" target="_blank" rel="noopener">CVE-2026-0322</a></td>
+  <td>2026-10-14</td>
+  <td>Palo Alto Networks / PAN-OS</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-104935" target="_blank" rel="noopener">CVE-2026-104935</a></td>
+  <td>2026-10-13</td>
+  <td>Ivanti / Connect Secure</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-96951" target="_blank" rel="noopener">CVE-2026-96951</a></td>
+  <td>2026-10-13</td>
+  <td>Microsoft / Windows</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2015-5477" target="_blank" rel="noopener">CVE-2015-5477</a></td>
+  <td>2026-10-08</td>
+  <td>ISC / BIND</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2016-3081" target="_blank" rel="noopener">CVE-2016-3081</a></td>
+  <td>2026-10-08</td>
+  <td>Apache / Struts</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2023-22894" target="_blank" rel="noopener">CVE-2023-22894</a></td>
+  <td>2026-10-08</td>
+  <td>Strapi / Strapi</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2021-3199" target="_blank" rel="noopener">CVE-2021-3199</a></td>
+  <td>2026-10-08</td>
+  <td>ONLYOFFICE / Docs</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2015-3306" target="_blank" rel="noopener">CVE-2015-3306</a></td>
+  <td>2026-10-08</td>
+  <td>ProFTPD / ProFTPD</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-88779" target="_blank" rel="noopener">CVE-2026-88779</a></td>
+  <td>2026-10-04</td>
+  <td>Citrix / NetScaler</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-102490" target="_blank" rel="noopener">CVE-2026-102490</a></td>
+  <td>2026-10-02</td>
+  <td>Zammad GmbH / Zammad</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-102489" target="_blank" rel="noopener">CVE-2026-102489</a></td>
+  <td>2026-10-02</td>
+  <td>Zammad GmbH / Zammad</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-104286" target="_blank" rel="noopener">CVE-2026-104286</a></td>
+  <td>2026-10-01</td>
+  <td>Fortinet / FortiMail</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+<tr>
+  <td class="mono"><a href="https://www.cve.org/CVERecord?id=CVE-2026-76504" target="_blank" rel="noopener">CVE-2026-76504</a></td>
+  <td>2026-09-30</td>
+  <td>Cisco / Catalyst SD-WAN Manager</td>
+  <td><span class="flag">Unknown</span></td>
+</tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <h2>ソース状況</h2>
+      <span class="count">タイムゾーン UTC+9</span>
+    </div>
+    <ul class="feeds">
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">Security NEXT</span><span class="feed-note">20 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">ScanNetSecurity</span><span class="feed-note">50 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">JPCERT/CC</span><span class="feed-note">30 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">IPA 重要なセキュリティ情報</span><span class="feed-note">254 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">The Hacker News</span><span class="feed-note">50 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">BleepingComputer</span><span class="feed-note">15 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">Krebs on Security</span><span class="feed-note">10 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">CISA Advisories</span><span class="feed-note">30 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">Unit 42</span><span class="feed-note">15 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">The Record</span><span class="feed-note">5 件</span></li>
+<li class="feed-row"><span class="dot dot--ok" aria-hidden="true"></span><span class="feed-name">SecurityWeek</span><span class="feed-note">10 件</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>静的な生成物です。データの裏取りは必ず一次情報(IPA / JPCERT/CC / JVN / NVD / CISA / 各ベンダ)で行ってください。</p>
+    <p>生成スクリプト: <code>scripts/collect.py</code> ・ フィード定義: <code>config/feeds.json</code></p>
+  </footer>
+
+</div>
+</body>
+</html>
