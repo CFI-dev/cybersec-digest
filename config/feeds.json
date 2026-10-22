@@ -67,12 +67,6 @@
       "lang": "ja"
     },
     {
-      "name": "Google News: Yahoo!ニュース",
-      "url": "https://news.google.com/rss/search?q=site%3Anews.yahoo.co.jp%20%28%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%20OR%20%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%20OR%20%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%29&hl=ja&gl=JP&ceid=JP:ja",
-      "category": "news",
-      "lang": "ja"
-    },
-    {
       "name": "Google News: NISC/国家サイバー統括室",
       "url": "https://news.google.com/rss/search?q=%E5%86%85%E9%96%A3%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20OR%20%E5%9B%BD%E5%AE%B6%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E7%B5%B1%E6%8B%AC%E5%AE%A4&hl=ja&gl=JP&ceid=JP:ja",
       "category": "advisory",

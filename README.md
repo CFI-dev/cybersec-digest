@@ -102,7 +102,7 @@ DIGEST_NO_SLACK=1 python3 scripts/collect.py   # Slack を送らずに実行
 **国内（`lang: "ja"`）**: Security NEXT / ScanNetSecurity / JPCERT/CC / JVN (jvn.jp) /
 IPA 重要なセキュリティ情報 / piyolog / INTERNET Watch / 日経クロステック / ITmedia エンタープライズ /
 ITmedia セキュリティ / ESET マルウェア情報局 /
-Google News（情報漏えい・脆弱性・不正アクセス/サイバー攻撃・Yahoo!ニュース・NISC）
+Google News（情報漏えい・脆弱性・不正アクセス/サイバー攻撃・NISC）
 
 > NISC（内閣サイバーセキュリティセンター／国家サイバー統括室）は公式RSSを提供していないため、
 > Google News 経由で関連発表を取得しています。
