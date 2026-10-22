@@ -98,6 +98,19 @@
   .item-desc{margin:6px 0 0;font-size:.85rem;color:var(--ink-soft)}
   .empty{color:var(--ink-soft);font-size:.92rem;background:var(--surface);border:1px dashed var(--rule);padding:18px;border-radius:var(--radius)}
 
+  /* ---------- kev band ---------- */
+  .kev-band{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#fdf2f1;
+    border:1px solid #ecd3d0;border-left:4px solid var(--critical);border-radius:var(--radius);
+    padding:9px 12px;margin:0 0 22px}
+  .kev-band__label{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--critical);font-weight:600;white-space:nowrap}
+  .kev-band__empty{font-size:.82rem;color:var(--ink-soft)}
+  .kev-chip{display:inline-flex;align-items:center;gap:7px;font-size:.79rem;text-decoration:none;
+    border:1px solid var(--rule);background:var(--surface);border-radius:2px;padding:2px 8px;color:var(--ink)}
+  .kev-chip:hover{border-color:var(--accent)}
+  .kev-chip__cve{font-family:var(--mono);font-weight:600;color:var(--critical)}
+  .kev-chip__prod{color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:26ch}
+  .kev-chip__rm{font-family:var(--mono);font-size:.6rem;background:var(--critical);color:#fff;padding:0 4px;border-radius:2px}
+
   /* ---------- split columns ---------- */
   .split{display:grid;grid-template-columns:1fr 1fr;gap:26px}
   .split-col{min-width:0}
@@ -146,7 +159,7 @@
     <h1>サイバーセキュリティ ダイジェスト</h1>
     <p class="sub">CISA KEV(悪用確認済み脆弱性)と主要ニュース/注意喚起を毎時集約した、自分専用の1画面ダッシュボードです。</p>
     <div class="stamp">
-      <span>最終更新: <b>2026-10-23 00:51 UTC+09:00</b></span>
+      <span>最終更新: <b>2026-10-23 01:13 UTC+09:00</b></span>
       <span>モード: <b>定期更新</b></span>
       <span>KEV 登録総数: <b>1,754</b></span>
     </div>
@@ -162,86 +175,21 @@
   <section class="section">
     <div class="sec-head">
       <h2>今回の新着</h2>
-      <span class="count">国内 8 件 ・ 海外 1 件</span>
+      <span class="count">KEV 0 件 ・ 国内 9 件 ・ 海外 0 件</span>
     </div>
+    <div class="kev-band"><span class="kev-band__label">KEV 新規</span><span class="kev-band__empty">今回の新規追加はありません。</span></div>
     <div class="split">
       <div class="split-col">
-        <h3 class="col-head"><span class="col-mark col-mark--ja"></span>国内<span class="col-count">8</span></h3>
+        <h3 class="col-head"><span class="col-mark col-mark--ja"></span>国内<span class="col-count">9</span></h3>
         <div class="timeline">
 <article class="item is-news">
   <div class="item-rail" aria-hidden="true"></div>
   <div class="item-body">
     <div class="item-meta">
-      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 21:45 UTC+09:00 ・ 脆弱性</span>
-    </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvZnVBVkJqNFRkYXlFRlY2RHpxWWs0VHJocDExMWVJajBnYzFNMnF3bVlwSWVaaTNtR1hzUjREc1lqenhwTTFHUFZRSWxOYW5CTHJmZjVjdDJDNEFuTVE?oc=5" target="_blank" rel="noopener">【ＰＨＰ脆弱性問題】企業や自治体、病院…県内でもＨＰ一時停止など対応相次ぐ 影響は世界に波及（22日まとめ） - 新潟日報</a>
-    
-  </div>
-</article>
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
-      <span class="chip">Google News: 情報漏えい</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 19:00 UTC+09:00 ・ 情報漏洩</span>
-    </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Dc1hIa281RXlweUhVSnA1ZFFhbS1xX05UOWw1ZmxwemxkUVcyZTJkemlKa04zc3lVckh1UjAzZGV3R0xydzlQQWFwUzE2UkVrdmNJLWp1M29IZEdIZ2NxRHdn?oc=5" target="_blank" rel="noopener">長崎県警でも…警察官など約3500人分の個人情報流出の可能性｜ニュース - KTNテレビ長崎</a>
-    
-  </div>
-</article>
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
-      <span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 18:12 UTC+09:00 ・ ニュース</span>
-    </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE94RWZGeFZkTWx3anVYQktxZl9vbUxNSUY5TFoyeTJvYl9NY1dCbVVGS0lLZ0FaMVBDN0FXejZsbzBCbkFGZC1mR3BkMDZXT0htMXYwaVhCbzg4V2hPcGd0azNWN0F6Mmc2d1h6NTRDMUdfTDFiRUtyYlpnU19GTWc?oc=5" target="_blank" rel="noopener">【解説】世界の7割使用の「PHP」に欠陥 不正アクセス防ぐ“新しい鍵”に交換が必要 ウェブサイト停止で混乱相次ぐ - Yahoo!ニュース</a>
-    
-  </div>
-</article>
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
-      <span class="chip">Google News: 情報漏えい</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 17:03 UTC+09:00 ・ 情報漏洩</span>
-    </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUxEWkRsMlp4dUl1UmtlNVZrdTZJT3o2S0QyX1lpN1QxR2NhOV93V2UweWE3M0hlQkltbTA1ZG42bU5JdHpZRjNUd0NUSFRnejQtcjJtM2dPQkJOc2VfLTh3NDZVM2lVbVRNeVpCRFlEZlYzUHpVckJCYkV3OVB0M3g2aEU?oc=5" target="_blank" rel="noopener">韓国・延世大、学生など1万5000人分の個人情報流出 学内のポータルサイトに不正アクセス（2026年10月22日掲載） - 日テレNEWS NNN</a>
-    
-  </div>
-</article>
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
-      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 13:03 UTC+09:00 ・ 脆弱性</span>
-    </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ja21uOXV0RGFic25uUXRDeHJ4YWF0UE9hUi1LV0o1WnozUlowanA4dDRhcm9lZUpWdTRCWHlueDE0S0hGZG9UQXRPZGxzdl9IVFFVczhSYjNsRjlzT1M3TVY4X3Vjcm8?oc=5" target="_blank" rel="noopener">PHPの重大脆弱性2件、1つはメモリー不足で悪用 増設だけでは防げず - 日経クロステック</a>
-    
-  </div>
-</article>
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
-      <span class="chip">Google News: 情報漏えい</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 11:51 UTC+09:00 ・ 情報漏洩</span>
-    </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WUDFTTk40eV90SGZCR0w2eG9JaXNsZFBFQlN4ZTRNclB3MDVkbEp4aXBJYXBfbXpYSnYtaW1CMFQ0UERwY1B6LUxjRzFWMTgxN0JzTG5IWQ?oc=5" target="_blank" rel="noopener">【大阪大学】約7万8000人の個人情報漏えい 委託先「NEC」が大学に“無断”で情報を協力会社と共有→サイバー攻撃被害 - TBS NEWS DIG</a>
-    
-  </div>
-</article>
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
       <span class="chip">Security NEXT</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-22 11:29 UTC+09:00 ・ 情報漏洩</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 22:47 UTC+09:00 ・ 情報漏洩</span>
     </div>
-    <a class="item-title" href="https://www.security-next.com/191780" target="_blank" rel="noopener">キャンペーン事務局のシステムに不正アクセス、個人情報が流出 - 国交省</a>
+    <a class="item-title" href="https://www.security-next.com/191773" target="_blank" rel="noopener">リクルートの中古車情報サービスで個人情報など流出か</a>
     
   </div>
 </article>
@@ -249,29 +197,96 @@
   <div class="item-rail" aria-hidden="true"></div>
   <div class="item-body">
     <div class="item-meta">
-      <span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-20 12:29 UTC+09:00 ・ ニュース</span>
+      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 21:11 UTC+09:00 ・ 脆弱性</span>
     </div>
-    <a class="item-title" href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tMWE1S1N4ZDNLRzZyaDFmVnJNLU5PLS0yaHE4MTAxbWs2UG10OGh0blpUTk8ydXZmSXdIUTBnaGhzWEJaMWxFQnUtVXg4enBa?oc=5" target="_blank" rel="noopener">栃木県警全職員の個人情報流出か アルカディア不正アクセスで - Yahoo!ニュース</a>
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMie0FVX3lxTFB5NVFWeXIzWWk3NGo1aUJmbldQd1hmWGNJSU1RMXFVXy05bWprTjlYOWNYWkpqRWRvcTNXTGZTUlE3dXdmZnhzSzZvcVVhbmpVNDc3SGpYYXk4SzRoR3JFUlRCQUNLTFo1QjJBTlMwTFYzV08tUFhfVkJyZw?oc=5" target="_blank" rel="noopener">【動作再開しました】PHPの脆弱性への対応に伴うホームページ一部機能の停止について - 福島市</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 20:00 UTC+09:00 ・ 脆弱性</span>
+    </div>
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zejJRRjF2aUt0c2Qzdkc1MVVrMFlHWFNjLVhtRG9ULU1OOGpSblYydjdiVWlyd01UNklGNk5MSUtPZnhIdWpsNnF1cFRoVE14NmRJN3g5VjB1cUJzMUpHUktYMk1fdkk?oc=5" target="_blank" rel="noopener">PHPの脆弱性公開から半日で「攻撃」数百万件 公開前から試行も [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 17:12 UTC+09:00 ・ 脆弱性</span>
+    </div>
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZVEx2R25ic19zcTlxM3N5NElzc0dxXzRkc29ocU9OZWxwdU0wZ09mdXVYa01UOWVQMkRqbTVjUVdfN1gyZVJmbmN2TGg5U1hMdHUtYjZTNzU5clBEOWJ1Sk1EcnJnbm5Sc1pGblYzOEhJdWh6Qi1nU2FTRUxzVDg?oc=5" target="_blank" rel="noopener">「PHP脆弱性問題」でサイバーセキュリティ銘柄に買い集中…プライム入りを果たし、値上がり1位となった〈注目株〉の正体【10月22日の国内株式市場概況】（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 13:35 UTC+09:00 ・ 脆弱性</span>
+    </div>
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUzdjd3AydndJaFhvd3FYU3lQTmlHVGl5ZGg1UEc3VC1pOW5QQ21wcGhuZUFwYUY0cUdaT3RCMk5vcURPQmE5MDM4c2FZQy1FNUpjcllYazVKS2x1Tmo2bXZ5TFRVSFp0QWNRRzgyYmFIcFhoRlpTZTdIcmxBWW1pczd2dXpCcnlR?oc=5" target="_blank" rel="noopener">PHPの脆弱性への対応について - 阿久根市</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">Google News: 情報漏えい</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 09:38 UTC+09:00 ・ 情報漏洩</span>
+    </div>
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1ESVlWWGRPWFpkVkp3ZFR5cGtzYlJGMFFJUmxfMlpyTWRsRVpPUUtpYlRIZjdlWnQ1TWtCLUVjRW55T2dCcGNlYmdiQ3o5ckZubVJTeUdvOGRXaHoxM2Nna0MzaHpiQmRHQUNmXzc4djlTTGpnVHJTZERIX0l4QVk?oc=5" target="_blank" rel="noopener">大阪大学で約7万8000人分の個人情報流出 在学生・卒業生の氏名・メアドなど…なりすましメールなどに注意呼びかけ - Yahoo!ニュース</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">Google News: 脆弱性</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-22 08:37 UTC+09:00 ・ 脆弱性</span>
+    </div>
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1OQWFCbmE5Yjl3d1FCWGg5VVI2WGhRenk2NW5XR3czMk9KN1pwV0ZjcUp6ZkZjQnhhWEx2LTZFQzhoYmZTM3IxZjJiSXhvYVlia3IyeVJaMG02RWdDRndPdHA4cmh2Wk1BOXBlZg?oc=5" target="_blank" rel="noopener">サイトの停止や緊急メンテナンス相次ぐ PHPの重大脆弱性、リスクと発見経緯 - 日経ビジネス電子版</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">日経クロステック</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-20 05:00 UTC+09:00 ・ ニュース</span>
+    </div>
+    <a class="item-title" href="https://xtech.nikkei.com/atcl/nxt/column/18/03098/092900087/" target="_blank" rel="noopener">米MITの「アーム量子ビット」、情報保持と高速演算を両立へ</a>
+    
+  </div>
+</article>
+<article class="item is-news">
+  <div class="item-rail" aria-hidden="true"></div>
+  <div class="item-body">
+    <div class="item-meta">
+      <span class="chip">日経クロステック</span><span class="badge badge--new">NEW</span>
+      <span class="item-time" title="2026-10-23 01:13 UTC+09:00">2026-10-20 05:00 UTC+09:00 ・ ニュース</span>
+    </div>
+    <a class="item-title" href="https://xtech.nikkei.com/atcl/nxt/column/18/03479/100600010/" target="_blank" rel="noopener">中国AIスタートアップ6社「六小虎」、高まる収益化圧力　分かれる戦略</a>
     
   </div>
 </article>
         </div>
       </div>
       <div class="split-col">
-        <h3 class="col-head"><span class="col-mark col-mark--ov"></span>海外<span class="col-count">1</span></h3>
+        <h3 class="col-head"><span class="col-mark col-mark--ov"></span>海外<span class="col-count">0</span></h3>
         <div class="timeline">
-<article class="item is-news">
-  <div class="item-rail" aria-hidden="true"></div>
-  <div class="item-body">
-    <div class="item-meta">
-      <span class="chip">BleepingComputer</span><span class="badge badge--new">NEW</span>
-      <span class="item-time" title="2026-10-23 00:51 UTC+09:00">2026-10-23 00:49 UTC+09:00 ・ ニュース</span>
-    </div>
-    <a class="item-title" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/" target="_blank" rel="noopener">Microsoft shares how to fix broken Exchange Online EWS apps</a>
-    
-  </div>
-</article>
+<p class="empty">海外の新着はありません。</p>
         </div>
       </div>
     </div>
@@ -283,6 +298,7 @@
       <span class="count">直近 20 件</span>
     </div>
     <div class="timeline">
+<article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 不正アクセス/サイバー攻撃</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-23 00:29 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE4tWks5eFZuYm01aHNYdXA4ZFI0MzlCcVUzY3Q3WV9TdlJzekhoUzJ3a1NFVmdPTUwzUFFHWlFaQkRtVUlBMVdYZGlfUXFpdWNrOGswdExVTEZKUmtYeG5QV04wYThWREpOclE2WA?oc=5" target="_blank" rel="noopener">PHP欠陥｢AIなら数分で標的に｣ サイバー攻撃検知、休眠サイトもリスク - 日本経済新聞</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-23 00:14 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9yNzRaU1NLdXZXN0lyUjd1Z3VTQm9aTjB3LTQ3eDQyYTQxOUJWalRPQ1VmY0xsMmRXZncxcnE5WUtJUHd1UloybTVFSEl2ZnlnT1ZLbTE4VmxtdEF0Z0RTNjRPN2hrSW1lZDVjZk1EMTRnWHUyWmtJZEhKU2NjNTA?oc=5" target="_blank" rel="noopener">鹿児島市 子育て支援メルマガ「すくすくメール」個人情報漏洩の恐れ（MBC南日本放送） - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 情報漏えい</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-23 00:14 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9yNzRaU1NLdXZXN0lyUjd1Z3VTQm9aTjB3LTQ3eDQyYTQxOUJWalRPQ1VmY0xsMmRXZncxcnE5WUtJUHd1UloybTVFSEl2ZnlnT1ZLbTE4VmxtdEF0Z0RTNjRPN2hrSW1lZDVjZk1EMTRnWHUyWmtJZEhKU2NjNTA?oc=5" target="_blank" rel="noopener">鹿児島市 子育て支援メルマガ「すくすくメール」個人情報漏洩の恐れ（MBC南日本放送） - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 情報漏えい</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-23 00:14 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5RdW82N1Z4c3dSSk5jVUQwSUg0bHU3Z2xGNVFEME9ldVo3clFBNGRPLU5aSEhXUDdfMXhxTnVKdGpwNUVpUnZWTl9kMGt6TTVzWG45WDJwR1d6NWFOdVBXMFEzR2ZRYTBaalNIUUVvODhaVFQ1X28zMURudWtWM0k?oc=5" target="_blank" rel="noopener">名鉄観光サービスのメルマガで最大で13万件の個人情報漏えいか（CBCテレビ） - Yahoo!ニュース</a></div></article>
@@ -295,14 +311,13 @@
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 23:00 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE51NGdJM3l3VTRXY2w3c25XcFZuZHBzaHRQelk0cE9od2toUWxKcVhHTnFjV3VyWVk1Y0FQMmxwWjJocmNrcERWVmdNNXFtUmN6dVlnMjZzc0lvUTdreEE0NGozM21EMEhZTXBRSEliY0FtV1NZNUJxYnJMc0ZIUEk?oc=5" target="_blank" rel="noopener">プログラム言語“PHP”に重大な脆弱性…不正アクセス防止へ新潟の自治体・企業も一部機能停止する予防的措置 - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 不正アクセス/サイバー攻撃</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 23:00 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE51NGdJM3l3VTRXY2w3c25XcFZuZHBzaHRQelk0cE9od2toUWxKcVhHTnFjV3VyWVk1Y0FQMmxwWjJocmNrcERWVmdNNXFtUmN6dVlnMjZzc0lvUTdreEE0NGozM21EMEhZTXBRSEliY0FtV1NZNUJxYnJMc0ZIUEk?oc=5" target="_blank" rel="noopener">プログラム言語“PHP”に重大な脆弱性…不正アクセス防止へ新潟の自治体・企業も一部機能停止する予防的措置 - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 不正アクセス/サイバー攻撃</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:59 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSjE0MmZWaXBWQl9zbFBFcm1oei04REo4YU9OclR3clpyaktONDk1cEM0dnF1TWU0LUZZcmN5N3hOZ241N2hsOF9ObkxvdXJlUWIxek5IaHI4OUppVUhPNUZTa25QU1lMV1oxRVVSS1llV3JWc0FmNVJ5UWE1Rm8?oc=5" target="_blank" rel="noopener">中国政府系ハッカー集団、AIでサイバー攻撃 マイクロソフト確認（毎日新聞） - Yahoo!ニュース</a></div></article>
+<article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Security NEXT</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:47 UTC+09:00</span></div><a class="item-title" href="https://www.security-next.com/191773" target="_blank" rel="noopener">リクルートの中古車情報サービスで個人情報など流出か</a></div></article>
+<article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 脆弱性</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:42 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQZHc0OW1DVkNPWXluNHc3WXhIMUxSTEhQVURPakdISS1xVnRuTlpjSUk4SkZUeFByV3hzUlIwVmtNNVVRT0pJUGJsZ0gwZ0pNOTZ3Q2oxQ3RHejUzRVdCUmY5ZWxKbi1SSkpFc3I1TU9veEppWTdvdHBuZzRDcGRYVko3Ylk?oc=5" target="_blank" rel="noopener">PHPが重大な脆弱性2件について警告 緊急パッチは21日夜にリリース予定 | Codebook｜Security News - 株式会社マキナレコード</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 脆弱性</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:32 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE84Z1FmNjh3VXRGSU9QdFhCWnE3eWZyajMyTk5Od3ZZOENZWXJfV2lxWE5zY2Vxbkxpbi1BWTlhdWRqNTJZTVdaNkxYOHBmeTg2b3NYQW5FQ3JhVVhSeElFal9BLUZObDZueTdQY2VGWldiUUZrRGpKSmVJZjk4MkU?oc=5" target="_blank" rel="noopener">「ＰＨＰ」サイト停止続出、脆弱性の修正急ぐ…「悪用試みる攻撃数百万件」・国内でもサーバー複数で攻撃検知 - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:29 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBWSW5yaUNKN2RQVHhJNEp4eEF2bXAtclJiMjBEZU5LTjhGaXk5Vm5UVUdON3F5TzQ0dkpsZG45WXI0Q2NERG9OZTR2a0poMkRteVFIc1FyY1dPU0kwYXhRUFA4N09ZbExzXzQ2a3pmYmJoMEZXZ0ZaRWF4TWRrVTA?oc=5" target="_blank" rel="noopener">市が利用するメール配信システムに不正アクセス 地域通貨利用者など2万人超に影響の可能性 宮城・名取市（tbc東北放送） - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 不正アクセス/サイバー攻撃</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:29 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBWSW5yaUNKN2RQVHhJNEp4eEF2bXAtclJiMjBEZU5LTjhGaXk5Vm5UVUdON3F5TzQ0dkpsZG45WXI0Q2NERG9OZTR2a0poMkRteVFIc1FyY1dPU0kwYXhRUFA4N09ZbExzXzQ2a3pmYmJoMEZXZ0ZaRWF4TWRrVTA?oc=5" target="_blank" rel="noopener">市が利用するメール配信システムに不正アクセス 地域通貨利用者など2万人超に影響の可能性 宮城・名取市（tbc東北放送） - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:20 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE10eWVJN2dvYnMzNENaUThsRVRkUnBNT1hUUDVicTNLZGpRa19UVm16bkM3UG1qbERGR0xxa1BRejIyQ040ZDEyNlN4eHRWdXQzaWJISV9qVGNLXzRoMVN6TC13UXBDbGd3MWhReENGc2pPZjJvUndVaGxvWlk2dlU?oc=5" target="_blank" rel="noopener">「危険！」九州の全カーナビに一斉誤配信 「不正アクセスではない」（朝日新聞） - Yahoo!ニュース</a></div></article>
 <article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 不正アクセス/サイバー攻撃</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:20 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vc0xsR1ZRV3h2S0dPcnhzd3E3UXI4SXpmdFQ4dGI3QjUxcVNQS19QRXE3UDRaRnFjbW0tNGtYbkZHUWQ2c3Q4QXpoQWtQV0VWZGRVM1NpQWt2eVU2ZExVTVBDdVpKbWs?oc=5" target="_blank" rel="noopener">「危険！」九州の全カーナビに一斉誤配信 「不正アクセスではない」 [福岡県] - 朝日新聞</a></div></article>
-<article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 不正アクセス/サイバー攻撃</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:16 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9DdnREX0pyQUlsWm9XTVpsSDk5elo0VTdfS2EyeXNtaC1BTTcxaC1Lem45MGFtMWNndzc1LXl6eXFTaFJFQzltejc4Uk9sWHdvSnFKeURwTVFZRWNMVWFTS2E1RmNWSVkzYVM2Zg?oc=5" target="_blank" rel="noopener">ラクス、子会社システムに不正アクセス 契約者情報が流出 - 日本経済新聞</a></div></article>
-<article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: Yahoo!ニュース</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:16 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBNNEVkSEcyT3UxSWlJa3REVVp4aVhwZC1fcUNyMVJ2VUtCSEloemV1NUdtdnFKMXdyaVlVXzU0VmZvY0w2eWdEYV9DS1JpMkdCQzUyZkJibE9EeUR4dDRVb0U3UXcyc1hsVE1pWG81S0F1VWlVbkExUUxtbVRZZHc?oc=5" target="_blank" rel="noopener">富山県の就活支援メール配信システムで不正アクセス 個人情報漏洩の可能性（富山テレビ） - Yahoo!ニュース</a></div></article>
-<article class="item is-news"><div class="item-rail" aria-hidden="true"></div><div class="item-body"><div class="item-meta"><span class="chip">Google News: 情報漏えい</span><span class="badge badge--dom">国内</span><span class="item-time">2026-10-22 22:16 UTC+09:00</span></div><a class="item-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBNNEVkSEcyT3UxSWlJa3REVVp4aVhwZC1fcUNyMVJ2VUtCSEloemV1NUdtdnFKMXdyaVlVXzU0VmZvY0w2eWdEYV9DS1JpMkdCQzUyZkJibE9EeUR4dDRVb0U3UXcyc1hsVE1pWG81S0F1VWlVbkExUUxtbVRZZHc?oc=5" target="_blank" rel="noopener">富山県の就活支援メール配信システムで不正アクセス 個人情報漏洩の可能性（富山テレビ） - Yahoo!ニュース</a></div></article>
     </div>
   </section>
 

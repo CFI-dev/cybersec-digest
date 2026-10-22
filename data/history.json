@@ -1,6 +1,114 @@
 {
-  "updated": "2026-10-23 00:51 UTC+09:00",
+  "updated": "2026-10-23 01:13 UTC+09:00",
   "entries": [
+    {
+      "kind": "news",
+      "source": "Security NEXT",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "リクルートの中古車情報サービスで個人情報など流出か",
+      "link": "https://www.security-next.com/191773",
+      "published": "2026-10-22 22:47 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【動作再開しました】PHPの脆弱性への対応に伴うホームページ一部機能の停止について - 福島市",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5NVFWeXIzWWk3NGo1aUJmbldQd1hmWGNJSU1RMXFVXy05bWprTjlYOWNYWkpqRWRvcTNXTGZTUlE3dXdmZnhzSzZvcVVhbmpVNDc3SGpYYXk4SzRoR3JFUlRCQUNLTFo1QjJBTlMwTFYzV08tUFhfVkJyZw?oc=5",
+      "published": "2026-10-22 21:11 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "PHPの脆弱性公開から半日で「攻撃」数百万件 公開前から試行も [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zejJRRjF2aUt0c2Qzdkc1MVVrMFlHWFNjLVhtRG9ULU1OOGpSblYydjdiVWlyd01UNklGNk5MSUtPZnhIdWpsNnF1cFRoVE14NmRJN3g5VjB1cUJzMUpHUktYMk1fdkk?oc=5",
+      "published": "2026-10-22 20:00 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "「PHP脆弱性問題」でサイバーセキュリティ銘柄に買い集中…プライム入りを果たし、値上がり1位となった〈注目株〉の正体【10月22日の国内株式市場概況】（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZVEx2R25ic19zcTlxM3N5NElzc0dxXzRkc29ocU9OZWxwdU0wZ09mdXVYa01UOWVQMkRqbTVjUVdfN1gyZVJmbmN2TGg5U1hMdHUtYjZTNzU5clBEOWJ1Sk1EcnJnbm5Sc1pGblYzOEhJdWh6Qi1nU2FTRUxzVDg?oc=5",
+      "published": "2026-10-22 17:12 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "PHPの脆弱性への対応について - 阿久根市",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUzdjd3AydndJaFhvd3FYU3lQTmlHVGl5ZGg1UEc3VC1pOW5QQ21wcGhuZUFwYUY0cUdaT3RCMk5vcURPQmE5MDM4c2FZQy1FNUpjcllYazVKS2x1Tmo2bXZ5TFRVSFp0QWNRRzgyYmFIcFhoRlpTZTdIcmxBWW1pczd2dXpCcnlR?oc=5",
+      "published": "2026-10-22 13:35 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "大阪大学で約7万8000人分の個人情報流出 在学生・卒業生の氏名・メアドなど…なりすましメールなどに注意呼びかけ - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ESVlWWGRPWFpkVkp3ZFR5cGtzYlJGMFFJUmxfMlpyTWRsRVpPUUtpYlRIZjdlWnQ1TWtCLUVjRW55T2dCcGNlYmdiQ3o5ckZubVJTeUdvOGRXaHoxM2Nna0MzaHpiQmRHQUNmXzc4djlTTGpnVHJTZERIX0l4QVk?oc=5",
+      "published": "2026-10-22 09:38 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "サイトの停止や緊急メンテナンス相次ぐ PHPの重大脆弱性、リスクと発見経緯 - 日経ビジネス電子版",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OQWFCbmE5Yjl3d1FCWGg5VVI2WGhRenk2NW5XR3czMk9KN1pwV0ZjcUp6ZkZjQnhhWEx2LTZFQzhoYmZTM3IxZjJiSXhvYVlia3IyeVJaMG02RWdDRndPdHA4cmh2Wk1BOXBlZg?oc=5",
+      "published": "2026-10-22 08:37 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "日経クロステック",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "米MITの「アーム量子ビット」、情報保持と高速演算を両立へ",
+      "link": "https://xtech.nikkei.com/atcl/nxt/column/18/03098/092900087/",
+      "published": "2026-10-20 05:00 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "日経クロステック",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "中国AIスタートアップ6社「六小虎」、高まる収益化圧力　分かれる戦略",
+      "link": "https://xtech.nikkei.com/atcl/nxt/column/18/03479/100600010/",
+      "published": "2026-10-20 05:00 UTC+09:00",
+      "detected": "2026-10-23 01:13 UTC+09:00",
+      "is_new": true
+    },
     {
       "kind": "news",
       "source": "Google News: 脆弱性",
@@ -11,7 +119,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvZnVBVkJqNFRkYXlFRlY2RHpxWWs0VHJocDExMWVJajBnYzFNMnF3bVlwSWVaaTNtR1hzUjREc1lqenhwTTFHUFZRSWxOYW5CTHJmZjVjdDJDNEFuTVE?oc=5",
       "published": "2026-10-22 21:45 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -23,7 +131,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Dc1hIa281RXlweUhVSnA1ZFFhbS1xX05UOWw1ZmxwemxkUVcyZTJkemlKa04zc3lVckh1UjAzZGV3R0xydzlQQWFwUzE2UkVrdmNJLWp1M29IZEdIZ2NxRHdn?oc=5",
       "published": "2026-10-22 19:00 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -35,7 +143,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94RWZGeFZkTWx3anVYQktxZl9vbUxNSUY5TFoyeTJvYl9NY1dCbVVGS0lLZ0FaMVBDN0FXejZsbzBCbkFGZC1mR3BkMDZXT0htMXYwaVhCbzg4V2hPcGd0azNWN0F6Mmc2d1h6NTRDMUdfTDFiRUtyYlpnU19GTWc?oc=5",
       "published": "2026-10-22 18:12 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -47,7 +155,7 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUxEWkRsMlp4dUl1UmtlNVZrdTZJT3o2S0QyX1lpN1QxR2NhOV93V2UweWE3M0hlQkltbTA1ZG42bU5JdHpZRjNUd0NUSFRnejQtcjJtM2dPQkJOc2VfLTh3NDZVM2lVbVRNeVpCRFlEZlYzUHpVckJCYkV3OVB0M3g2aEU?oc=5",
       "published": "2026-10-22 17:03 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -59,7 +167,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ja21uOXV0RGFic25uUXRDeHJ4YWF0UE9hUi1LV0o1WnozUlowanA4dDRhcm9lZUpWdTRCWHlueDE0S0hGZG9UQXRPZGxzdl9IVFFVczhSYjNsRjlzT1M3TVY4X3Vjcm8?oc=5",
       "published": "2026-10-22 13:03 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -71,7 +179,7 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WUDFTTk40eV90SGZCR0w2eG9JaXNsZFBFQlN4ZTRNclB3MDVkbEp4aXBJYXBfbXpYSnYtaW1CMFQ0UERwY1B6LUxjRzFWMTgxN0JzTG5IWQ?oc=5",
       "published": "2026-10-22 11:51 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -83,7 +191,7 @@
       "link": "https://www.security-next.com/191780",
       "published": "2026-10-22 11:29 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -95,7 +203,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tMWE1S1N4ZDNLRzZyaDFmVnJNLU5PLS0yaHE4MTAxbWs2UG10OGh0blpUTk8ydXZmSXdIUTBnaGhzWEJaMWxFQnUtVXg4enBa?oc=5",
       "published": "2026-10-20 12:29 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -107,7 +215,7 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
       "published": "2026-10-23 00:49 UTC+09:00",
       "detected": "2026-10-23 00:51 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -3208,105 +3316,6 @@
       "title": "Oracle Javaに55件の脆弱性　IPAが「早急に適用を」と促す対象は",
       "link": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news058.html",
       "published": "2026-10-22 13:30 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 脆弱性",
-      "category": "vuln",
-      "priority": "news",
-      "title": "“緊急メンテの夜”までの一部始終は？ 8月にAIで「PHPの重大な脆弱性」発見→OpenAIが即応チームを招集 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxdVhTaG1MZm9mZmZKdzhPT0tIT1lmWHhOSnRvWGdZYTdoVGRWZzNJR0pteV9OWDRjS252M0huc1ZPMnVzSnlWYTJYbTVFaVJNZEdoU3dkeUh1MDZuRlpOVnFOMm05Y0hyOVFCU3M1dnFJUQ?oc=5",
-      "published": "2026-10-22 13:30 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: Yahoo!ニュース",
-      "category": "news",
-      "priority": "news",
-      "title": "【不正アクセス情報流出】犯罪者命令でAIがアプリ解析し”侵入”…新しい攻撃法「A2B攻撃」でデータ盗まれたか ITジャーナリスト・三上洋氏「各企業の対策が強化されれ ば今週末にも収束が期待できるか」（FNNプライムオンライン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qdzY0X3N1UmY2bzZlSWE4YVVIZmFyTVpUNzdVSnFBRzVxSlVQMjJRNFlTdTdFOEVYbF9lZ1BRRmhHbHB6WnBqUDR4Z3ZFbzJwSnoybUo0QzE0em5vNDAtTVdZRXNJN19kUE1yMVB2MDdyTEptcGhNamtibVhYZmM?oc=5",
-      "published": "2026-10-22 13:21 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "priority": "news",
-      "title": "【不正アクセス情報流出】犯罪者命令でAIがアプリ解析し”侵入”…新しい攻撃法「A2B攻撃」でデータ盗まれたか ITジャーナリスト・三上洋氏「各企業の対策が強化されれ ば今週末にも収束が期待できるか」（FNNプライムオンライン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qdzY0X3N1UmY2bzZlSWE4YVVIZmFyTVpUNzdVSnFBRzVxSlVQMjJRNFlTdTdFOEVYbF9lZ1BRRmhHbHB6WnBqUDR4Z3ZFbzJwSnoybUo0QzE0em5vNDAtTVdZRXNJN19kUE1yMVB2MDdyTEptcGhNamtibVhYZmM?oc=5",
-      "published": "2026-10-22 13:21 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: Yahoo!ニュース",
-      "category": "news",
-      "priority": "news",
-      "title": "宇部市が利用する「ふるさとチョイス」が不正アクセスでサービス停止、不審なメールに注意喚起【宇部】（宇部日報） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USVM3c1p2b2hYTG1YSXF5YlZlNWRweWxMVmVoc29RZGhwNGlyS1dRLXVyM21wWURRR0dUUkZlUG9KYlRxTnBuWEEwVkFZUW1xaVhyREV5NmxneEt1TzdYUTZpaGNSNUxfOXl1Zi1SMGQ3YUUyMXcwZ1NLYlRsNjQ?oc=5",
-      "published": "2026-10-22 13:18 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "priority": "news",
-      "title": "インフラ事業者と緊急会議 警視庁、サイバーテロ警戒（共同通信） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43YWFGRTA0a1Y3RUEta3RNQl9rMjlwMzVUWnR5TU5iaHJUU2h5T0lINjZZc0UyYXdJd0VTUVJNMGFNbXliUWdsZGQ1U3hYOGxnWnVtakpiYnFZZ05RcmZsTUxHYWRJeVlXVVRlOGlTWkk4X3F4endvREFEaEx0QlU?oc=5",
-      "published": "2026-10-22 13:09 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "priority": "news",
-      "title": "相次ぐ情報漏えい受け 警視庁が重要インフラ事業者と緊急会議 - NHKニュース",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zOFl6amQ2N3lVa0NwMGhrdjc4MFJRN3JaVEk4aVZoVUVIZUg1REIyWGozUXYtOGlBcVRobEo2SHc0amNTT1hjY3Y4ekpxY0tXRmNlM0czR3dVT3dCcFow?oc=5",
-      "published": "2026-10-22 13:08 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "日経クロステック",
-      "category": "news",
-      "priority": "news",
-      "title": "PHPの重大脆弱性2件、1つはメモリー不足で悪用　増設だけでは防げず",
-      "link": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12116/",
-      "published": "2026-10-22 13:03 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "ITmedia エンタープライズ",
-      "category": "news",
-      "priority": "news",
-      "title": "PHPに深刻な脆弱性　更新だけで対策は終わらない、企業が最初にやるべき2つのこと",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news054.html",
-      "published": "2026-10-22 13:00 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "ITmedia セキュリティ",
-      "category": "news",
-      "priority": "news",
-      "title": "PHPに深刻な脆弱性　更新だけで対策は終わらない、企業が最初にやるべき2つのこと",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news054.html",
-      "published": "2026-10-22 13:00 UTC+09:00",
       "detected": "2026-10-23 00:35 UTC+09:00",
       "is_new": false
     }
