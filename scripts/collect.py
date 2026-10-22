@@ -119,6 +119,7 @@ def fetch_feeds(feeds):
         name = feed.get("name", feed.get("url", "?"))
         url = feed["url"]
         category = feed.get("category", "news")
+        lang = feed.get("lang", "en")
         try:
             parsed = feedparser.parse(url, agent=HEADERS["User-Agent"], request_headers=HEADERS)
             if getattr(parsed, "bozo", 0) and not parsed.entries:
@@ -136,6 +137,7 @@ def fetch_feeds(feeds):
                     {
                         "source": name,
                         "category": category,
+                        "lang": lang,
                         "id": str(ident),
                         "title": (entry.get("title") or "(無題)").strip(),
                         "link": entry.get("link", ""),
@@ -175,12 +177,9 @@ def category_label(cat: str) -> str:
 
 
 # ---------------------------------------------------------------- render HTML
-def render_timeline(records) -> str:
+def render_timeline(records, empty_msg="今回の新着はありません。") -> str:
     if not records:
-        return (
-            '<p class="empty">今回の実行で新着はありませんでした。'
-            "前回までの検出分は下の履歴に残ります。</p>"
-        )
+        return '<p class="empty">' + empty_msg + '</p>' 
     rows = []
     for rec in records:
         kind = rec.get("kind", "news")
@@ -222,6 +221,28 @@ def render_timeline(records) -> str:
     {body}
   </div>
 </article>"""
+        )
+    return "\n".join(rows)
+
+
+def render_ja_list(records) -> str:
+    if not records:
+        return '<p class="empty">国内フィードの取得結果がありません。</p>'
+    rows = []
+    for i in records:
+        title = esc(i.get("title", ""))
+        link = esc(i.get("link", ""))
+        src = esc(i.get("source", ""))
+        when = esc(i.get("published", ""))
+        if link:
+            head = '<a class="item-title" href="' + link + '" target="_blank" rel="noopener">' + title + '</a>'
+        else:
+            head = '<span class="item-title">' + title + '</span>'
+        rows.append(
+            '<article class="item is-news"><div class="item-rail" aria-hidden="true"></div>'
+            '<div class="item-body"><div class="item-meta"><span class="chip">' + src + '</span>'
+            '<span class="badge badge--dom">国内</span>'
+            '<span class="item-time">' + when + '</span></div>' + head + '</div></article>'
         )
     return "\n".join(rows)
 
@@ -333,6 +354,12 @@ def main() -> int:
     else:
         new_news = [i for i in feed_items if i["id"] not in prev_seen]
     new_news.sort(key=lambda i: i.get("published_ts", 0), reverse=True)
+    MAX_PER_COL = 40
+    ja_news = [i for i in new_news if i.get("lang") == "ja"]
+    ov_news = [i for i in new_news if i.get("lang") != "ja"]
+    ja_extra = max(0, len(ja_news) - MAX_PER_COL)
+    ov_extra = max(0, len(ov_news) - MAX_PER_COL)
+    new_news = ja_news[:MAX_PER_COL] + ov_news[:MAX_PER_COL]
 
     # --- merge for timeline ------------------------------------------------
     detected = iso(now())
@@ -360,6 +387,7 @@ def main() -> int:
                 "kind": "news",
                 "source": i["source"],
                 "category": i["category"],
+                "lang": i.get("lang", "en"),
                 "priority": "news",
                 "title": i["title"],
                 "link": i["link"],
@@ -384,7 +412,21 @@ def main() -> int:
     save_json(HISTORY, {"updated": detected, "entries": merged})
 
     # --- HTML --------------------------------------------------------------
+    ja_items = sorted(
+        [i for i in feed_items if i.get("lang") == "ja"],
+        key=lambda i: i.get("published_ts", 0),
+        reverse=True,
+    )[:20]
     latest_kev = sorted(kev_entries, key=lambda e: e.get("dateAdded", ""), reverse=True)
+    fresh_ja = [x for x in fresh if x.get("lang") == "ja"]
+    fresh_ov = [x for x in fresh if x.get("lang") != "ja"]
+    ja_new_html = render_timeline(fresh_ja, "国内の新着はありません。")
+    if ja_extra:
+        ja_new_html += '\n<p class="empty">ほか ' + str(ja_extra) + ' 件（国内）</p>'
+    ov_new_html = render_timeline(fresh_ov, "海外の新着はありません。")
+    if ov_extra:
+        ov_new_html += '\n<p class="empty">ほか ' + str(ov_extra) + ' 件（海外）</p>'
+
     context = {
         "GENERATED_AT": detected,
         "MODE_NOTE": "初回実行(ベースライン記録。今回の新着通知は行いません)" if first_run else "定期更新",
@@ -393,7 +435,12 @@ def main() -> int:
         "FEEDS_OK": sum(1 for s in feed_statuses if s.get("ok")),
         "FEEDS_TOTAL": len(feed_statuses),
         "KEV_TOTAL": f"{kev_total:,}",
-        "NEW_ITEMS_HTML": render_timeline(fresh),
+        "JA_NEW_HTML": ja_new_html,
+        "OV_NEW_HTML": ov_new_html,
+        "JA_NEW_COUNT": len(fresh_ja),
+        "OV_NEW_COUNT": len(fresh_ov),
+        "JA_ITEMS_HTML": render_ja_list(ja_items),
+        "JA_COUNT": len(ja_items),
         "KEV_ROWS_HTML": render_kev_rows(latest_kev),
         "FEED_ROWS_HTML": render_feed_rows(feed_statuses),
         "TZ_LABEL": TZ_LABEL,
