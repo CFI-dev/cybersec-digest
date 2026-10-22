@@ -109,8 +109,8 @@
       "lang": "en"
     },
     {
-      "name": "CISA Advisories",
-      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "name": "CISA 関連 (Google News)",
+      "url": "https://news.google.com/rss/search?q=CISA%20advisory%20OR%20CISA%20alert&hl=en-US&gl=US&ceid=US:en",
       "category": "advisory",
       "lang": "en"
     },

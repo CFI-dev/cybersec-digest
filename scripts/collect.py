@@ -112,6 +112,52 @@ def fetch_kev():
 
 
 # ---------------------------------------------------------------- fetch RSS
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.8",
+    "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+}
+
+
+def parse_feed(url):
+    """フィードを取得して解析する。
+
+    bot 遮断されたサイトは 403 とともに HTML のエラーページを返すため、
+    それを XML として解釈すると "mismatched tag" になる。次の順で耐性を持たせる:
+      1) 通常 UA で requests 取得 → XML 解析
+      2) 失敗したらブラウザ相当ヘッダで再試行
+      3) それでも失敗したら feedparser に URL を直接渡す
+    """
+    last_exc = None
+    for headers in (HEADERS, BROWSER_HEADERS):
+        try:
+            resp = requests.get(url, headers=headers, timeout=TIMEOUT)
+            resp.raise_for_status()
+            body = resp.content
+            head = body[:2048].lstrip().lower()
+            if head.startswith(b"<!doctype html") or head.startswith(b"<html"):
+                raise RuntimeError(
+                    f"HTML が返されました (HTTP {resp.status_code}, {len(body)} bytes)"
+                )
+            parsed = feedparser.parse(body)
+            if getattr(parsed, "bozo", 0) and not parsed.entries:
+                raise RuntimeError(str(getattr(parsed, "bozo_exception", "parse error")))
+            return parsed
+        except Exception as exc:  # noqa: BLE001
+            last_exc = exc
+    try:
+        parsed = feedparser.parse(url, agent=BROWSER_HEADERS["User-Agent"],
+                                  request_headers=BROWSER_HEADERS)
+        if not parsed.entries:
+            raise RuntimeError(str(getattr(parsed, "bozo_exception", "no entries")))
+        return parsed
+    except Exception as exc:  # noqa: BLE001
+        raise RuntimeError(f"取得失敗: {exc}") from exc
+
+
 def fetch_feeds(feeds):
     """各フィードを取得し (items, statuses) を返す。"""
     items, statuses = [], []
@@ -121,7 +167,7 @@ def fetch_feeds(feeds):
         category = feed.get("category", "news")
         lang = feed.get("lang", "en")
         try:
-            parsed = feedparser.parse(url, agent=HEADERS["User-Agent"], request_headers=HEADERS)
+            parsed = parse_feed(url)
             if getattr(parsed, "bozo", 0) and not parsed.entries:
                 raise RuntimeError(getattr(parsed, "bozo_exception", "parse error"))
             count = 0
@@ -431,7 +477,7 @@ def main() -> int:
         [i for i in feed_items if i.get("lang") == "ja"],
         key=lambda i: i.get("published_ts", 0),
         reverse=True,
-    )[:20]
+    )[:100]
     latest_kev = sorted(kev_entries, key=lambda e: e.get("dateAdded", ""), reverse=True)
     fresh_kev = [x for x in fresh if x.get("kind") == "kev"]
     fresh_news = [x for x in fresh if x.get("kind") != "kev"]
