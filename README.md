@@ -51,13 +51,16 @@ cybersec-digest/
 git init
 git add .
 git commit -m "init: cybersec-digest"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/<あなた>/cybersec-digest.git
-git push -u origin main
+git push -u origin master
 ```
 
+> 本リポジトリは **`master`** を既定ブランチとして運用します（`main` を使う場合は読み替えてください）。
+> GitHub 上で既定ブランチを確認・変更するには `Settings` → `General` → `Default branch`。
+
 ### 2. GitHub Pages を有効化
-`Settings` → `Pages` → **Source: Deploy from a branch** → **Branch: `main` / Folder: `/docs`** → Save。
+`Settings` → `Pages` → **Source: Deploy from a branch** → **Branch: `master` / Folder: `/docs`** → Save。
 数分後、`https://<あなた>.github.io/cybersec-digest/` でダッシュボードが公開されます。
 
 ### 3. Slack 通知を設定（任意）
