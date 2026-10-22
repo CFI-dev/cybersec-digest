@@ -1,4 +1,71 @@
 {
-  "updated": "2026-10-22 22:14 UTC+09:00",
-  "entries": []
+  "updated": "2026-10-22 23:49 UTC+09:00",
+  "entries": [
+    {
+      "kind": "news",
+      "source": "SecurityWeek",
+      "category": "news",
+      "priority": "news",
+      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "link": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "published": "2026-10-22 23:31 UTC+09:00",
+      "detected": "2026-10-22 23:49 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "BleepingComputer",
+      "category": "news",
+      "priority": "news",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "link": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "published": "2026-10-22 23:02 UTC+09:00",
+      "detected": "2026-10-22 23:49 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Hacker News",
+      "category": "news",
+      "priority": "news",
+      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+      "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "published": "2026-10-22 22:38 UTC+09:00",
+      "detected": "2026-10-22 23:49 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Record",
+      "category": "news",
+      "priority": "news",
+      "title": "Cybercrime crackdown across Africa leads to 1,462 arrests, $105 million seized",
+      "link": "https://therecord.media/africa-cybercrime-interpol-arrests",
+      "published": "2026-10-22 22:30 UTC+09:00",
+      "detected": "2026-10-22 23:49 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "SecurityWeek",
+      "category": "news",
+      "priority": "news",
+      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+      "link": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "published": "2026-10-22 22:00 UTC+09:00",
+      "detected": "2026-10-22 23:49 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Hacker News",
+      "category": "news",
+      "priority": "news",
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "published": "2026-10-22 20:45 UTC+09:00",
+      "detected": "2026-10-22 23:49 UTC+09:00",
+      "is_new": true
+    }
+  ]
 }
