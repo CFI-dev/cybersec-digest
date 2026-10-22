@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-23 01:13 UTC+09:00",
+  "updated": "2026-10-23 01:20 UTC+09:00",
   "entries": [
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ＰＨＰ脆弱性、世界で修正急ぐ 攻撃試行は数百万件に（ロイター） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kYlJhb01zTS1FMS1ieGUxenRVeEM3T0M4bDhONDN5cG1QU2ltVmxVdE5WLU1oQldSV3Ayckpaeno4SGU5NmFBVjZjZE53TGJDR0FaZEYyUDJxUVFNMTN5aFVGSzA0R1E0T2pQd09YWmlqb200S0N6OUNLYmo5UU0?oc=5",
+      "published": "2026-10-22 20:42 UTC+09:00",
+      "detected": "2026-10-23 01:20 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "熊本県内でも相次ぐ“サイト一時停止” PHP脆弱性の脅威と求められる対策（熊本ニュース KAB ONLINE） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91QlhnUG5XODgtN0lXc0RJWmQweHZJa0g1d2lacjhJR1VwTXIxcU1ta1lDREgwVWpNREJQVElfMmVNNlpwaThqaGRIdS15N3dIaHdsVVFfUmdTaG5XeHdKQWRtY0Z4U3V6T2FHUDVSTmNmNmFFNElfUDgwcFVsV2s?oc=5",
+      "published": "2026-10-22 19:28 UTC+09:00",
+      "detected": "2026-10-23 01:20 UTC+09:00",
+      "is_new": true
+    },
     {
       "kind": "news",
       "source": "Security NEXT",
@@ -11,7 +35,7 @@
       "link": "https://www.security-next.com/191773",
       "published": "2026-10-22 22:47 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -23,7 +47,7 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5NVFWeXIzWWk3NGo1aUJmbldQd1hmWGNJSU1RMXFVXy05bWprTjlYOWNYWkpqRWRvcTNXTGZTUlE3dXdmZnhzSzZvcVVhbmpVNDc3SGpYYXk4SzRoR3JFUlRCQUNLTFo1QjJBTlMwTFYzV08tUFhfVkJyZw?oc=5",
       "published": "2026-10-22 21:11 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -35,7 +59,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zejJRRjF2aUt0c2Qzdkc1MVVrMFlHWFNjLVhtRG9ULU1OOGpSblYydjdiVWlyd01UNklGNk5MSUtPZnhIdWpsNnF1cFRoVE14NmRJN3g5VjB1cUJzMUpHUktYMk1fdkk?oc=5",
       "published": "2026-10-22 20:00 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -47,7 +71,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZVEx2R25ic19zcTlxM3N5NElzc0dxXzRkc29ocU9OZWxwdU0wZ09mdXVYa01UOWVQMkRqbTVjUVdfN1gyZVJmbmN2TGg5U1hMdHUtYjZTNzU5clBEOWJ1Sk1EcnJnbm5Sc1pGblYzOEhJdWh6Qi1nU2FTRUxzVDg?oc=5",
       "published": "2026-10-22 17:12 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -59,7 +83,7 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUzdjd3AydndJaFhvd3FYU3lQTmlHVGl5ZGg1UEc3VC1pOW5QQ21wcGhuZUFwYUY0cUdaT3RCMk5vcURPQmE5MDM4c2FZQy1FNUpjcllYazVKS2x1Tmo2bXZ5TFRVSFp0QWNRRzgyYmFIcFhoRlpTZTdIcmxBWW1pczd2dXpCcnlR?oc=5",
       "published": "2026-10-22 13:35 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -71,7 +95,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ESVlWWGRPWFpkVkp3ZFR5cGtzYlJGMFFJUmxfMlpyTWRsRVpPUUtpYlRIZjdlWnQ1TWtCLUVjRW55T2dCcGNlYmdiQ3o5ckZubVJTeUdvOGRXaHoxM2Nna0MzaHpiQmRHQUNmXzc4djlTTGpnVHJTZERIX0l4QVk?oc=5",
       "published": "2026-10-22 09:38 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -83,7 +107,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OQWFCbmE5Yjl3d1FCWGg5VVI2WGhRenk2NW5XR3czMk9KN1pwV0ZjcUp6ZkZjQnhhWEx2LTZFQzhoYmZTM3IxZjJiSXhvYVlia3IyeVJaMG02RWdDRndPdHA4cmh2Wk1BOXBlZg?oc=5",
       "published": "2026-10-22 08:37 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -95,7 +119,7 @@
       "link": "https://xtech.nikkei.com/atcl/nxt/column/18/03098/092900087/",
       "published": "2026-10-20 05:00 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -107,7 +131,7 @@
       "link": "https://xtech.nikkei.com/atcl/nxt/column/18/03479/100600010/",
       "published": "2026-10-20 05:00 UTC+09:00",
       "detected": "2026-10-23 01:13 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -3293,28 +3317,6 @@
       "priority": "news",
       "title": "Amazonで、まとめ買い向け向けの箱入りティッシュペーパーがセールに　5箱×12個入りティッシュ「エルモア ピコティシュー」は4750円",
       "link": "https://internet.watch.impress.co.jp/docs/shopping/2150210.html",
-      "published": "2026-10-22 13:30 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "ITmedia エンタープライズ",
-      "category": "news",
-      "priority": "news",
-      "title": "Oracle Javaに55件の脆弱性　IPAが「早急に適用を」と促す対象は",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news058.html",
-      "published": "2026-10-22 13:30 UTC+09:00",
-      "detected": "2026-10-23 00:35 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "ITmedia セキュリティ",
-      "category": "news",
-      "priority": "news",
-      "title": "Oracle Javaに55件の脆弱性　IPAが「早急に適用を」と促す対象は",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news058.html",
       "published": "2026-10-22 13:30 UTC+09:00",
       "detected": "2026-10-23 00:35 UTC+09:00",
       "is_new": false
