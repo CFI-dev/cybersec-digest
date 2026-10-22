@@ -97,9 +97,21 @@ DIGEST_NO_SLACK=1 python3 scripts/collect.py   # Slack を送らずに実行
 
 `category` は表示ラベルに使われます：`advisory`（注意喚起）/ `vuln`（脆弱性）/ `breach`（情報漏洩）/ `news`（ニュース）。
 
-初期同梱（いずれも 2026-10-22 時点で取得確認済み）:
-Security NEXT / ScanNetSecurity / JPCERT/CC / IPA 重要なセキュリティ情報 /
-The Hacker News / BleepingComputer / Krebs on Security / CISA Advisories / Unit 42 / The Record / SecurityWeek
+初期同梱（2026-10-22〜23 時点で取得確認済み）:
+
+**国内（`lang: "ja"`）**: Security NEXT / ScanNetSecurity / JPCERT/CC / JVN (jvn.jp) /
+IPA 重要なセキュリティ情報 / piyolog / INTERNET Watch / 日経クロステック / ITmedia エンタープライズ /
+ITmedia セキュリティ / ESET マルウェア情報局 /
+Google News（情報漏えい・脆弱性・不正アクセス/サイバー攻撃・Yahoo!ニュース・NISC）
+
+> NISC（内閣サイバーセキュリティセンター／国家サイバー統括室）は公式RSSを提供していないため、
+> Google News 経由で関連発表を取得しています。
+
+**海外（`lang: "en"`）**: The Hacker News / BleepingComputer / Krebs on Security /
+CISA Advisories / Unit 42 / The Record / SecurityWeek
+
+`lang` を `"ja"` にしたフィードは、ダッシュボードで **「国内」バッジ**が付き、
+**「国内(日本)の最新ニュース」セクション**にも表示されます。
 
 ---
 

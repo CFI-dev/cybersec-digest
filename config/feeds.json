@@ -1,15 +1,142 @@
 {
   "feeds": [
-    { "name": "Security NEXT", "url": "https://www.security-next.com/feed", "category": "breach" },
-    { "name": "ScanNetSecurity", "url": "https://scan.netsecurity.ne.jp/rss/index.rdf", "category": "news" },
-    { "name": "JPCERT/CC", "url": "https://www.jpcert.or.jp/rss/jpcert.rdf", "category": "advisory" },
-    { "name": "IPA 重要なセキュリティ情報", "url": "https://www.ipa.go.jp/security/rss/alert.rdf", "category": "advisory" },
-    { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "news" },
-    { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "category": "news" },
-    { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "news" },
-    { "name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "category": "advisory" },
-    { "name": "Unit 42", "url": "https://unit42.paloaltonetworks.com/feed/", "category": "news" },
-    { "name": "The Record", "url": "https://therecord.media/feed", "category": "news" },
-    { "name": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "category": "news" }
+    {
+      "name": "Security NEXT",
+      "url": "https://www.security-next.com/feed",
+      "category": "breach",
+      "lang": "ja"
+    },
+    {
+      "name": "ScanNetSecurity",
+      "url": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "JPCERT/CC",
+      "url": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+      "category": "advisory",
+      "lang": "ja"
+    },
+    {
+      "name": "JVN (jvn.jp)",
+      "url": "https://jvn.jp/rss/jvn.rdf",
+      "category": "vuln",
+      "lang": "ja"
+    },
+    {
+      "name": "IPA 重要なセキュリティ情報",
+      "url": "https://www.ipa.go.jp/security/rss/alert.rdf",
+      "category": "advisory",
+      "lang": "ja"
+    },
+    {
+      "name": "piyolog",
+      "url": "https://piyolog.hatenadiary.jp/feed",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "日経クロステック",
+      "url": "https://xtech.nikkei.com/rss/index.rdf",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "ITmedia エンタープライズ",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "ITmedia セキュリティ",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/security.xml",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "ESET マルウェア情報局",
+      "url": "https://eset-info.canon-its.jp/rss/",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "Google News: Yahoo!ニュース",
+      "url": "https://news.google.com/rss/search?q=site%3Anews.yahoo.co.jp%20%28%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%20OR%20%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%20OR%20%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%29&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "Google News: NISC/国家サイバー統括室",
+      "url": "https://news.google.com/rss/search?q=%E5%86%85%E9%96%A3%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20OR%20%E5%9B%BD%E5%AE%B6%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E7%B5%B1%E6%8B%AC%E5%AE%A4&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "advisory",
+      "lang": "ja"
+    },
+    {
+      "name": "Google News: 情報漏えい",
+      "url": "https://news.google.com/rss/search?q=%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%20OR%20%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "breach",
+      "lang": "ja"
+    },
+    {
+      "name": "Google News: 脆弱性",
+      "url": "https://news.google.com/rss/search?q=%E8%84%86%E5%BC%B1%E6%80%A7&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "vuln",
+      "lang": "ja"
+    },
+    {
+      "name": "Google News: 不正アクセス/サイバー攻撃",
+      "url": "https://news.google.com/rss/search?q=%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%20OR%20%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "news",
+      "lang": "ja"
+    },
+    {
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "category": "news",
+      "lang": "en"
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "category": "news",
+      "lang": "en"
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "category": "news",
+      "lang": "en"
+    },
+    {
+      "name": "CISA Advisories",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "category": "advisory",
+      "lang": "en"
+    },
+    {
+      "name": "Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "category": "news",
+      "lang": "en"
+    },
+    {
+      "name": "The Record",
+      "url": "https://therecord.media/feed",
+      "category": "news",
+      "lang": "en"
+    },
+    {
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/feed/",
+      "category": "news",
+      "lang": "en"
+    }
   ]
 }
