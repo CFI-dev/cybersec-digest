@@ -177,6 +177,21 @@ def category_label(cat: str) -> str:
 
 
 # ---------------------------------------------------------------- render HTML
+def render_kev_band(records) -> str:
+    label = '<span class="kev-band__label">KEV 新規</span>'
+    if not records:
+        return label + '<span class="kev-band__empty">今回の新規追加はありません。</span>'
+    chips = []
+    for r in records:
+        rm = '<span class="kev-chip__rm">ランサム</span>' if r.get("priority") == "critical" else ""
+        chips.append(
+            '<a class="kev-chip" href="' + esc(r.get("link", "")) + '" target="_blank" rel="noopener">'
+            '<span class="kev-chip__cve">' + esc(r.get("cve", "")) + '</span>'
+            '<span class="kev-chip__prod">' + esc(r.get("product", "")) + '</span>' + rm + '</a>'
+        )
+    return label + "".join(chips)
+
+
 def render_timeline(records, empty_msg="今回の新着はありません。") -> str:
     if not records:
         return '<p class="empty">' + empty_msg + '</p>' 
@@ -418,8 +433,11 @@ def main() -> int:
         reverse=True,
     )[:20]
     latest_kev = sorted(kev_entries, key=lambda e: e.get("dateAdded", ""), reverse=True)
-    fresh_ja = [x for x in fresh if x.get("lang") == "ja"]
-    fresh_ov = [x for x in fresh if x.get("lang") != "ja"]
+    fresh_kev = [x for x in fresh if x.get("kind") == "kev"]
+    fresh_news = [x for x in fresh if x.get("kind") != "kev"]
+    fresh_ja = [x for x in fresh_news if x.get("lang") == "ja"]
+    fresh_ov = [x for x in fresh_news if x.get("lang") != "ja"]
+    kev_band_html = render_kev_band(fresh_kev)
     ja_new_html = render_timeline(fresh_ja, "国内の新着はありません。")
     if ja_extra:
         ja_new_html += '\n<p class="empty">ほか ' + str(ja_extra) + ' 件（国内）</p>'
@@ -435,6 +453,7 @@ def main() -> int:
         "FEEDS_OK": sum(1 for s in feed_statuses if s.get("ok")),
         "FEEDS_TOTAL": len(feed_statuses),
         "KEV_TOTAL": f"{kev_total:,}",
+        "KEV_BAND_HTML": kev_band_html,
         "JA_NEW_HTML": ja_new_html,
         "OV_NEW_HTML": ov_new_html,
         "JA_NEW_COUNT": len(fresh_ja),

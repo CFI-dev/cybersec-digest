@@ -98,6 +98,19 @@
   .item-desc{margin:6px 0 0;font-size:.85rem;color:var(--ink-soft)}
   .empty{color:var(--ink-soft);font-size:.92rem;background:var(--surface);border:1px dashed var(--rule);padding:18px;border-radius:var(--radius)}
 
+  /* ---------- kev band ---------- */
+  .kev-band{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#fdf2f1;
+    border:1px solid #ecd3d0;border-left:4px solid var(--critical);border-radius:var(--radius);
+    padding:9px 12px;margin:0 0 22px}
+  .kev-band__label{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--critical);font-weight:600;white-space:nowrap}
+  .kev-band__empty{font-size:.82rem;color:var(--ink-soft)}
+  .kev-chip{display:inline-flex;align-items:center;gap:7px;font-size:.79rem;text-decoration:none;
+    border:1px solid var(--rule);background:var(--surface);border-radius:2px;padding:2px 8px;color:var(--ink)}
+  .kev-chip:hover{border-color:var(--accent)}
+  .kev-chip__cve{font-family:var(--mono);font-weight:600;color:var(--critical)}
+  .kev-chip__prod{color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:26ch}
+  .kev-chip__rm{font-family:var(--mono);font-size:.6rem;background:var(--critical);color:#fff;padding:0 4px;border-radius:2px}
+
   /* ---------- split columns ---------- */
   .split{display:grid;grid-template-columns:1fr 1fr;gap:26px}
   .split-col{min-width:0}
@@ -162,8 +175,9 @@
   <section class="section">
     <div class="sec-head">
       <h2>今回の新着</h2>
-      <span class="count">国内 {{JA_NEW_COUNT}} 件 ・ 海外 {{OV_NEW_COUNT}} 件</span>
+      <span class="count">KEV {{KEV_NEW_COUNT}} 件 ・ 国内 {{JA_NEW_COUNT}} 件 ・ 海外 {{OV_NEW_COUNT}} 件</span>
     </div>
+    <div class="kev-band">{{KEV_BAND_HTML}}</div>
     <div class="split">
       <div class="split-col">
         <h3 class="col-head"><span class="col-mark col-mark--ja"></span>国内<span class="col-count">{{JA_NEW_COUNT}}</span></h3>
