@@ -1,6 +1,594 @@
 {
-  "updated": "2026-10-26 13:11 UTC+09:00",
+  "updated": "2026-10-26 19:54 UTC+09:00",
   "entries": [
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か クレカ3万件も - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UYlNUUFJiYkRqODFFUjRVUWdieVRaR0lFUE1uRjU4aGNnTDlodHdyczVicVpvR0prUjduWnFlMVpqR0VYNWRtdllrYm9Wc0dHZ1dzQXR3UXl4b19EYVBRQXNnTEVoY1p1OHhWUg?oc=5",
+      "published": "2026-10-26 19:50 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "中経連、会員各社のサイバー対策状況を調査 相次ぐ不正アクセス受け - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01cGRRVG1CMDdqMkVwTXlJRXNkRWhkVjdWNmxQdHl5X2p3d01wcHBvUUZFd0R3LTZtMlZQVGV4ZXpJaWZ5dy1NV0pOOVFYZmRaMERpalA1cEVNN0hjUEw4eHZ2MUp6UzJ4djNZMg?oc=5",
+      "published": "2026-10-26 19:48 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 脆弱性",
+      "category": "vuln",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ＰＨＰ脆弱性問題で個別１８サイトを停止 静岡県 日本平夢テラスや県富士山世界遺産センターなど - 静岡新聞DIGITAL",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE54YmNoMUFmTEplb3B2d29mSFFPSGc3Yk5JUi1zSzVUcUJLb0xvMGh6RnM1Um12UmVDSEZpS3pDU3cxclJyUTJtMFJta2RLdw?oc=5",
+      "published": "2026-10-26 19:42 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ＧＭＯ、不正アクセス攻撃者から７９億円要求…熊谷正寿会長兼社長「応じておらず支払いも一切行っておりません」 - 読売新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TRDM3ZTNncG5ZaFNQMENGOXhuSjRJNTRoZ0VlanVhWnR6bWFGLS1UdTNPVy1FVmhPaXBFSmN0OUFfNGtTUDdPRjVCMHVTbkprS0Nqa1RGSDdiV25JZEZTMkdtc3RsUQ?oc=5",
+      "published": "2026-10-26 19:41 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "GMOに79億円要求 サイバー攻撃者の脅迫文を公開、支払いは拒否 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3YU1DNlptLUNfSmNKQnRxWVc1OWY5eW1RWHY3WjBjSy1qZVBrNm16VlhzQVdmcGVSczg1ZEV6d3Z4c2N1Vm1WalN3MG1yVUNCTFZTbHhGazF2azhYNFAxaHZXczA0bk0?oc=5",
+      "published": "2026-10-26 19:39 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "GMOに79億円要求 サイバー攻撃者の脅迫文を公開、支払いは拒否 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3YU1DNlptLUNfSmNKQnRxWVc1OWY5eW1RWHY3WjBjSy1qZVBrNm16VlhzQVdmcGVSczg1ZEV6d3Z4c2N1Vm1WalN3MG1yVUNCTFZTbHhGazF2azhYNFAxaHZXczA0bk0?oc=5",
+      "published": "2026-10-26 19:39 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "名古屋銀行、顧客情報流出か＝メアドなど、委託先に不正アクセス(時事通信) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVTZXN0UwS2tNcVFwMHUxMGxTUnY5UTdETVo5bVRfaDR3RnJkdHRNbjE0Y0JaY29kMU1MZ0kxWTVTYnZNS1pVaEVwMzBqNkk2b200SDlIREp3VjJNc29PWEtpR0UzRjFwWWVwcmQ2V3BsR0Vib25vRnRKaUZ6Y3Z1d1pLd0hIdnM?oc=5",
+      "published": "2026-10-26 19:37 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "名古屋銀行、顧客情報流出か＝メアドなど、委託先に不正アクセス(時事通信) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVTZXN0UwS2tNcVFwMHUxMGxTUnY5UTdETVo5bVRfaDR3RnJkdHRNbjE0Y0JaY29kMU1MZ0kxWTVTYnZNS1pVaEVwMzBqNkk2b200SDlIREp3VjJNc29PWEtpR0UzRjFwWWVwcmQ2V3BsR0Vib25vRnRKaUZ6Y3Z1d1pLd0hIdnM?oc=5",
+      "published": "2026-10-26 19:37 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "高市首相、能動的サイバー防御含む「あらゆる対処オプションを実行」 - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80b0h5Q3REWkhwaWRrNzA5SEtTdnd4SHJvSWp4aERRV3VYRV9tYTRqZ0Q1dHoxRnpBNXhZcW5MaFE1NkRaRU8wMTUxWWRxaVpmdzRGbmxhN1NxX1JuUGFVRFlHU0Vaem8?oc=5",
+      "published": "2026-10-26 19:30 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【10月緊急対応版】情報漏えい事故から判明した「5つの経路」と「5つの対策」 - ビジネス+IT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sd0h2Zk5UaTJMVUlOOXZjZGJieDgtUS1Ha01QdXhkR19WdjFXY3p6U19RWlRHb1lFVTBPSjZzMXZ1YkFHcGZRVWthTjI0bUdIaExn?oc=5",
+      "published": "2026-10-26 19:21 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ギフティグループ[590A]：当社連結子会社の一部システムへの不正アクセスに伴うeギフトの不正発行および特別損失計上見込みに関するお知らせ 2026年10月26日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13VzAybjhtN1Q4eTVLX3NSYXcwSGItdlFiNk9HN0c5aVJtbzZTUGp5a2xkWlNmWUI5VDFJem5UNURuUmNBdlo0MlV6RFVURVpCWkU0VE5FOWl5akRxSS1IWFNPZjhzVXQ1SFE?oc=5",
+      "published": "2026-10-26 19:17 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "サイバー攻撃による被害相次ぐ 高市首相、来週中めどに緊急対策パッケージ取りまとめ指示 - 日テレNEWS NNN",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51OHNvUEZ2YmZLVWpoVDF6eWo1eS1QalF0UktwbkdRa2xtd0JNOG1GWmJWZzh1eEczZXFUUXEydzVmZ1NpWWprbWpHNWhpVXVIWnV5TUw4Z3NwU3JGYy11WWdYNDloaXQ5ejM5bHdLWGZHdnFnaUJ3dGR5WGdJZw?oc=5",
+      "published": "2026-10-26 19:16 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "個人情報漏洩で約4割が解約 利用者が500円のお詫び金より求めるもの - Forbes JAPAN",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YME5rdFpoTHFlUmJwWVNwOHQyeXVlbGtoM0ZnWXZBRWNtcExIdGx6WU9FVTNkbVBBTm9lRHVkTnQ2a1h6QVk4WnJqdnliX1Q3UzVEcVE1cW1YUQ?oc=5",
+      "published": "2026-10-26 19:15 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "家電量販大手ジョーシン、最大600万件の個人情報漏えいか 新潟県内に計8店 - 47NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBGbXNfZmF5X3M0TmhBSTh0SERXaE9QM0VPMkVWSWYzVXNGQzBUaGRnMUhOeWNGZTZjRU5nWDY3RXNCX3ZMTFA5R1dyOA?oc=5",
+      "published": "2026-10-26 19:15 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "メール配信会社「ユミルリンク」のべ5100万件の情報漏えい確認 - NHKニュース",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DSGdBQ2Rlc2VVQldIVWZEWHN0ME41dTY4ck9OR2xoYTg5TUctQUtZcGdkMmowcEJjTUxnal9jYXFsUzZLcUNuUEg1N3VNZXNxbXhtN3lDRml1OEZKbUVr?oc=5",
+      "published": "2026-10-26 19:14 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ほっとニュース北海道 【詳しく】相次ぐ不正アクセス 私たちにできる対策は NHK ONE 配信中 11/2まで - NHK",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fYXRydzZlNFV3TmNELWJySDlOd1FRcDhPZGtwUTNreFh0U3Bjc3VFaFU4MXhBS3BqUkE4MG9zWlphSW5vSHQzTTA0Q3ZfNGJMNEZzTWVaR05fS0g0cFJhbmtDYkdQWk0?oc=5",
+      "published": "2026-10-26 19:14 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "「タイムズカー」情報漏洩 集団訴訟へ 見舞金3000円「低すぎる」 - テレ朝NEWS",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HRmgxWDNzeV9QVFVBY05RMmlQQnd5OUpidTZ6dDAzenhRYnROT2J0aXFFQjZDMmtaa21sVnhHbUdTMjVldGZHeE5lY1ZubF8wbDdSVTU4T0RvM09xdlllOWUtY1k4MmpuZVp2Sk1zX1pfUQ?oc=5",
+      "published": "2026-10-26 19:13 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "楽天トラベルに不正アクセス 海外予約で260万件など - Impress Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ldnpsRnFlRUQ1RUFMSkt4Y19NcTRLbkRYblgtVTBPeFFXb1FESlI5NmRHVkVrV29WN2hIV1cwZDRVMmpUN3VjZEpWaEVoSDBVdlZQX0JlX2c3R0pKQzYycVpwTTE?oc=5",
+      "published": "2026-10-26 19:12 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "サイバー攻撃に緊急対策 首相方針 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5d1V3TkVydnpnUUd1STRxSUJHUnhPM3dzSzctZS1kN3hseDhORElleWF4UktKbU1HT0k0ZWMtajk2S3h1R1d2YmNLLUVKeUdU?oc=5",
+      "published": "2026-10-26 19:11 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【速報】不正アクセス攻撃者からGMO側に約79億円の要求 熊谷社長が明らかに - TBS NEWS DIG",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1KSjR4UFZ4N3RpOXhfcXdfdTh4ZHh0dlc3R3pnNTNqQ0VxSkZmUW5VQm5kMXJXeGpuTzBFbmpJbXVGVC1UVnV1eXZsZlg2SjQ3OUdxRHUxbjBLQTFVX2FhVVNuWGI?oc=5",
+      "published": "2026-10-26 19:07 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【“いまさら聞けない”ニュースワード】不正アクセス - 公明新聞電子版プラス",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MdkJYNzd6Yi1UT25DQXlvMGt0d2M1UHFON3E3UWxmSlV6dnhBYzNTQXJ6aXJhVEJZR3JDbml6QlVhcnhla3N5WThwNWk2S00ydVpPSG5KUDJMcGZYTlJBc0FzQnNnSm1GV1ZJcEltcWhxeVExZ0hleGZIM2tHQW8?oc=5",
+      "published": "2026-10-26 19:05 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【速報】Joshinに不正アクセス 約600万件超える個人情報が漏洩した可能性 免許証の画像やマイナンバーカードなどの情報も漏洩したか（関西テレビ） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GWnAzYmM5VWVkLXJ5U2JxZUVubDhWWFQ0MVAtRFhuaFk3SGVPem5PeFQyTnVNQnpNaGVfZlFaQ3VnZXhMZi03OTJlTjBHOEpCUTBMLUtnV2lnQm5BV3Fqc2VVNWdramRZemdwMW5nbXRBODhES2RBVHFIRlhfUjQ?oc=5",
+      "published": "2026-10-26 19:05 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "家電量販大手ジョーシン、最大600万件の個人情報漏えいか 新潟県内に計8店 - 新潟日報",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LbFlIdEZmV2dRZHpxMmotaGZjcHktWTJSVG9GVTAzYmFlQWx2MlVrVHJucmVGdXdKS3lpSWlqNU1EeWxGYlAxQ1FNeGV3czhiNURXVjYwMkJrQ1E3a2c?oc=5",
+      "published": "2026-10-26 19:05 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ジョーシン、最大600万件の情報漏えいか - nippon.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UaF9HX1l5XzRhcy13S2RvTms0VTN0a3ZMR3JJRzZvUWJSZTFIT3RmSDg0WFg1blcxNmVSY1BHb0x1TDNWU2lYZ3ZWelI0dWNUV3ZrTWR4b0VhZDUyU3FtQXpRWQ?oc=5",
+      "published": "2026-10-26 19:02 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【速報】ジョーシン、最大600万件の情報漏えいか - 47NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9RZ3lPWUVwcGl0TFY1Qmp5V29OamN1LVVsSjZnZ0UxY0lKQTk3OWRhc29UQkUzamk4YmVZN25BYnZkaTRJZUtqVjBKSQ?oc=5",
+      "published": "2026-10-26 19:01 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ジョーシン、最大６００万件の情報漏えいか - 京都新聞デジタル",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQRktUM0hIbm5IU2ZINnkxUkpsQnJsSjFnQ3hnTlRIdnYyRlRmWjItRXJJYndFZkJPU0RadnJ6dGhaeExNTy1DMkMyWjRXR1l1NVNCZkI3dHA?oc=5",
+      "published": "2026-10-26 19:01 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ジョーシン、最大600万件の情報漏えいか - ｄメニューニュース",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLXFWODJfVGRkRVNURXV0NU9zZUxWclRkbkdJRXRQQ3Vlc1VzQmNaSmU2VUlhLWNJd2ZmN1NKMEtZQW8yck5yeWpzZWlvRnlhZll4b2gwUHNhNkdIVlN5aGhkR3hzdDZmQ2JDZGtabzFJTWRFU3gzTUl5aVBLaTRjSDl2WGNtTjV1VkVpekFaLUVtZkZ1RVMyVVY2T0dndHVG0gGTAUFVX3lxTFA3VjVOOWdpOGM5OEZmWVFxRk5lUl9wMXZGak04cm42MWl2Q3Z6dlJqSTk2VERhcHRQQ09DdEZWSFZwR1F0RGFuUTdXMHlUdGJ3UGc3elR4U21CNXhtOGkwWGI4eHllWUdlMU1mc3YwWVNSS2VfUWJ1cmVlTXN5TWdzSzF0U3V3Ykk5a1dGT1NBN1dDYw?oc=5",
+      "published": "2026-10-26 19:01 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "日経クロステック",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "GMOが要請した「能動的サイバー防御」の論点、官房長官は対応明かさず",
+      "link": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12127/",
+      "published": "2026-10-26 19:00 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【社説】サイバー被害で実際の金銭被害 情報共有を深めて対策を急げ [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtZDA3cmp4YkdGbGoybDU5TG9SZjNlMkF1X2s3LXRXN2JiQXdBMlBrM0J0c3FpejExblhTNkF6dnZOdTk2QUpCbVJVY0J5aEh2cmxQcWZlN1U0VnFweGVTZ2J1eGVOam8?oc=5",
+      "published": "2026-10-26 19:00 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "『VIVANT』ドラム「聞くしかないね。じかにね」機密情報漏洩にツッコミ続出「口が軽すぎるだろ笑」「エージェント失格」 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SbmlVb09paGwtMXhwWXZSaURYRjdQZGc2V2RYWjhONmNrbnZPeWd1bzJCTTNmTG5sT05FQ1ZUa3VYMHhXU1Zsd2JKc3QyaTVsT0VsbmE5OHV0UkJlUVJGWFpJR0xBU3gzZkF2SHBrSWtIMHQwVmxxQmJKb1JwcGc?oc=5",
+      "published": "2026-10-26 19:00 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "【社説】サイバー被害で実際の金銭被害 情報共有を深めて対策を急げ [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtZDA3cmp4YkdGbGoybDU5TG9SZjNlMkF1X2s3LXRXN2JiQXdBMlBrM0J0c3FpejExblhTNkF6dnZOdTk2QUpCbVJVY0J5aEh2cmxQcWZlN1U0VnFweGVTZ2J1eGVOam8?oc=5",
+      "published": "2026-10-26 19:00 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "相次ぐサイバー攻撃 政府が来週中に緊急対策パッケージとりまとめ - テレ朝NEWS",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tOTgwQ1d4TjJndDVwRk1fcGRQdEVBMDk1VUVfRjMzN1RWSGxKV0xzWHoySWhuQWgtV2xzYk01ODVGYVc0T3E1N0lZdTdmc0x6LXJHcUtfSXRrOU9abGhfbDh1WVFic2JuOXduYWRjSDNiX1k?oc=5",
+      "published": "2026-10-26 18:59 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "相次ぐサイバー攻撃 政府が来週中に緊急対策パッケージとりまとめ（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BbEcwMmE2YUNPZkNfODVnVnlrel9QVl9nQ08xYkVYSXZnUEFpaXFHN1pmbjVycUtiNl9rN3ZWV1RUak5qZ2lkMkJ6alJESF85Mm9fc20tOXZfeVZ5TkdvZ3FMNTVIV0FTWmk0RmIxX2E0QnIwNlp5LWlSZFJ3SDg?oc=5",
+      "published": "2026-10-26 18:59 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "茨城県・県警HP、19日ぶりに復旧 不正アクセスの影響で閲覧障害 [茨城県] [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zU0xRejdYSGdjSGVicm5KMTFNXzZvQzFYOVpQZFlBa1ZEdlhnSWh3QURKWURXZC1kTFNnR2lqcGdmdFdVYW9aclBaSnRSUDlZbk1ySy1rNnlTUUpMQVpKNmRBRmVmOTA?oc=5",
+      "published": "2026-10-26 18:59 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "茨城県・県警HP、19日ぶりに復旧 不正アクセスの影響で閲覧障害（朝日新聞） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16R043U3NFYlFrR2puNUVoNURNZW1TYksxaG14Yy15eVdaaUFVTEpSMkxFYmZYVEZ2cm1QeVV4bFZpUHdRS3k0OWc2WHR0dTlsUk9rNnZJRU4wLVY2akhoZUZUWTk0bUFCOG1HTmNBcVNtU2pvRy10alRGQ2FwekE?oc=5",
+      "published": "2026-10-26 18:59 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "サイバー攻撃元の無害化措置、高市首相「戦略的に実行」 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WRnZWUHNjSHVtbWowVGRHOTltRXNXVG1NUG13THFXTWpWbGNOdVNRY0M4d2R5dlRiSVNDVlI2SUpLbEx1MmxpVzgzYmN6QnN4dFoyMXVoakhkal9zQkE3YmpSaG5uWE1VemtpTA?oc=5",
+      "published": "2026-10-26 18:57 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "プレステサービスで不正アクセス？ 家族アカウント「勝手に追加」 SNSで投稿相次ぐ - 産経ニュース",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmbXNTR3NyVk1oaXJMNGptekNSaXZQel9SRzNxN0JiVC1DTzFOeHZHcDhybmdSbnFPZEh2NDJGZDFOUkRuLTFZRWlSWE5NMlZoeTFVTDg1cmREemhkVW4tNUNpb0IxMXYzTnBfTG03UGRRajhhb1E?oc=5",
+      "published": "2026-10-26 18:55 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "米嘉手納基地、BYD車禁止 カメラ情報流出懸念か (共同通信) - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORGZMN0NYbmNUMDdLSFUtbDhoUWpoXzRmdF9oa09BWExZTUVvVjA0azlIdlA1a0FwYk5tN3h0a18xc292ZzZ4NW9XYUdxQjk2RWZuTWFmaDdzS092QVpwX0xNQWhLQWFXMnBlQjZVcDQ4Q2ZxWkktYi1NWnJ6ZzRhc3MxQWhXYUFuWVc3SUxB?oc=5",
+      "published": "2026-10-26 18:55 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 情報漏えい",
+      "category": "breach",
+      "lang": "ja",
+      "priority": "news",
+      "title": "ユミルリンク「Cuenote FC」、情報漏えいのおそれ延べ5,162万8,280件に拡大 49システムでデータ出力を確認 - 合同会社ロケットボーイズ",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWhsUS1OQTZVRlNhbHN5dXp2MW1FVVAzVGVpOW9USkhOd1owUlU1WUNsdC1LSndIaHB0azZaeDJfTzdIZ1dtRU5VMkNOb2ktR3hRbkxabkVxRmF2YTRUZ3liWEdBUmJGZV91N2VGZEtRVXBabGhUcEFBakZabE1qeERhS2hMZ1ZsNjZtTkdsZnJZWk92NHIwZEhrRmJtQ1lJaGc?oc=5",
+      "published": "2026-10-26 18:52 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "Google News: 不正アクセス/サイバー攻撃",
+      "category": "news",
+      "lang": "ja",
+      "priority": "news",
+      "title": "GMO不正アクセス 攻撃者から約80億円の要求（ABEMA TIMES） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xcTVxaXVLTHIxRVplV09ycnNIdG43UW9CdjhXRWtTVGsxd0x1eW9ka3RRVDFZVkR5RmJ1NVh3eE5tRnRTdFI2am9Db3JMRzQ5R3JodVNMa2RjVEQzTmpUdzdTd29fWFUyUDZuR204bDBuTExWQlpWdXhaNnlJQk0?oc=5",
+      "published": "2026-10-26 18:51 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "BleepingComputer",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "published": "2026-10-26 19:26 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "SecurityWeek",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+      "link": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+      "published": "2026-10-26 19:21 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Hacker News",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "published": "2026-10-26 18:54 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "BleepingComputer",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "published": "2026-10-26 18:19 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "SecurityWeek",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "link": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+      "published": "2026-10-26 18:10 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Hacker News",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "published": "2026-10-26 17:35 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Hacker News",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "published": "2026-10-26 16:49 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "The Hacker News",
+      "category": "news",
+      "lang": "en",
+      "priority": "news",
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "published": "2026-10-26 15:03 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
+    {
+      "kind": "news",
+      "source": "CISA 関連 (Google News)",
+      "category": "advisory",
+      "lang": "en",
+      "priority": "news",
+      "title": "CISA Urges Hardening Fortinet Devices Following FortiBleed Attack - CyberSecurityNews",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2OUNXRW1CX2cxZk1uUGFfbVNCSkNiRHM2alJZRzk4NFNxSTREbUxwSkRYeE9XM1EtWGJFS2ZZOW42SjFOR0lMeU0tdTJmbE9SeXhta0pHU1hyVGtad0FSN2lfN2w1WkJEWm5WcHU0d1hXUDZ2U3JR0gF8QVVfeXFMT1RzWFNIMDBfbDZXTFFXQll1S2w1T1UyWnM2OU9uZENMNkU3SDR6dV9fbWdWT3cxajNELWxpemlGRGNZZURQTE9US2hYSk1qVjl2bnpqQ0dzYlpRbElfU2o0SWxpckdUMzlaWm1fTjJIdUJGd1VDUFB1dmZXeg?oc=5",
+      "published": "2026-06-19 16:00 UTC+09:00",
+      "detected": "2026-10-26 19:54 UTC+09:00",
+      "is_new": true
+    },
     {
       "kind": "news",
       "source": "Google News: 不正アクセス/サイバー攻撃",
@@ -11,7 +599,7 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSHBzcEU1ODlIQVV4UFRMM25ENXE0U053eVFCcnBfZVVMT0NKSUVFT2gxdF9QOTEzMkpBSnkwYUpxbXY2U09WVnZxVDc1MWhPWE54OHVyVFh2b3hPVjQycHRBUUxuOGZQV0VEeklCQ3ZRcGx6RURQNGlGZ3lPTVZxNNIBVEFVX3lxTFBnNGJ1ZVFmZV9uVXJSWGoyekEyV2Z4SmFmLTJWdEV3VnpaNXI4MEFySmV6VEEyOEVNWTI4NU1IRmh3VzVhRHBhZ3V6WWFxVFZKc1pmQw?oc=5",
       "published": "2026-10-26 13:04 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -23,7 +611,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0NXUxNW5HbUlpSDRZZ3VpelBrY3dtQVp6cDgxdzBLTWNjdWthNzVQY01kTUIyTEUxYVRGTUtxQ3VVTE93MjQ2OGg0ek8wU0JuZGxiOU0zLTllMlVkN2FKejEtLTJHMFMxVU5KWnVKMGJSU3FZRVZrLVBYZDZEajg?oc=5",
       "published": "2026-10-26 13:03 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -35,7 +623,7 @@
       "link": "https://jvn.jp/vu/JVNVU96549652/",
       "published": "2026-10-26 13:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -47,7 +635,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GNzYzWWJGSjlCYllSaG9JemZ3aGxLOHh1Q1YwR0hRZkZLQjVNTzh2bTFza3BSc3dXc0cxblJ0bUNrY2FRaHZpbHQtZ3RxSVZLb0M5U0pldXI0aVJweEhDTGp3YlkxclRfZ3c1RV90MzFvaGlS?oc=5",
       "published": "2026-10-26 12:55 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -59,7 +647,7 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZnl6VF92emtfYWs4QjYzUjhncm52VG5GRHNYZ3RpWDVrS296N052M2NTN1JoTFc4NWQ4c3ZLOUZoQnZzLXhWLWtFalZuRm9mY0hKZ3p6ZjMxY0FrVjI5dkxwWVRMV1B3UE1GcVB0SE9oUkNsZjNxWXBHWURrZDJJc3UxYldnTTU3d3BvNG8ySXhOMHBfX1NXT3IxVQ?oc=5",
       "published": "2026-10-26 12:40 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -71,7 +659,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kTHctY3prRXpyaV9UVmRZWVlSbTM5QWdnMzQ0WmFSai1ZR2pDUk5Yc3BjSllHelBYRHpQdmFFTGlscjhCdW1MOG5wVl9CQS11Ri1pSDg0d3BtX3FqZUZnSVhSUTJxZi1Cbi1Bb2Zua18zaVFtOVZ2RGNZTXF5clE?oc=5",
       "published": "2026-10-26 12:38 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -83,7 +671,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5STnA5Zkp1WHdfMTBrZ2E4aVVwMGNaaGRvLUhKQnpTZVFxT3ZlVW5GQ1NMNW9SZldHMllGc1RTZE5RMWIyYUZiUXRRYVZ5T3JUWWJIOU5NWm9JcVpyanc?oc=5",
       "published": "2026-10-26 12:34 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -95,7 +683,7 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RVHZmMEVPem05c0g0NkFRZFlrQXM5MzVBMG9sNWM1V3k0RExCT3FET1lCM0dtV29ubmdoWGROdGdEYzhQY2lHSFZDWE02ZGtweENMWDQtcE55Tl9hQ09hQ2RPTUNDN2xMT0JvaFl3?oc=5",
       "published": "2026-10-26 12:33 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -107,7 +695,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EQUk3ekxKcjdzbHRJQzRQUkt3SzdJZFg2RjRWdUp2UmpRYks3ZW1pbC1LQ3Q5UmV1X2x4Q1lEaEZxLWRuMUg3MnFxeVdyUQ?oc=5",
       "published": "2026-10-26 12:32 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -119,7 +707,7 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3hFb0FTTV85Qmtscm51bU9BQVNBc2JKaWVjX19QLTZMeC1XcjVucmVsWkpaTF92VWU5LV9QRTBZMGZzb1YtWGNweHd3cGtRWDdET0E5WnczQ1JTcW1NUEtQZzl2VVlTUXltYTZyM184bldJZHI5Y1NMOVZBWDJOSW1JbGZFMGRfV2fSAXxBVV95cUxOV013WHYwSk9fWkhQXzVEaVliaENhLXBIMEFSY3pYQkszaHlEemd1TG10b2s1bkNfU29ndjg3eUx2cFFmRkx1Umxha2Q3QURoNHRBcENOemFOdUVkYU9QamZ4Z0dCdDZJWE4xc2ZxT0liTWNZYTBOQjBwT2h2?oc=5",
       "published": "2026-10-26 12:30 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -131,7 +719,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RQi1qejBuVl9nNHRNLU56MmRTeHpMc3BTY2g4M2JsLWYybk1uZkRFYzRBbDRZLXo5NjJZdGppcmJ4MmJxYm9wTWVpeDZQdzVrRGRYd2hTYlNSZzNSVnBFVjhXT190aDY5eGZxNA?oc=5",
       "published": "2026-10-26 12:28 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -143,7 +731,7 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiOVJERDJnYlpoQXNlS1RXTjliNXBEOU1MbmF4cmF3Sll5OWhLeWc5VGhFX2xfRFZQbXJuNlN5NUlyRFFHS1RwU3pXT1E0RklmamF6UGtrdlhReWhzRnIyU3FRNEVMbjZ3enBqcXBRMTFHelByTUdqOU1WMEJXQQ?oc=5",
       "published": "2026-10-26 12:26 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -155,7 +743,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CNnkzSVJYLWdqd3B0cURQWEZZSi1QYldWeFpTaHBFNVVyS2dPSU5ISGxyN2s3SkpKLWdpM1MzbzJHMVhhX2Y2Smk3SzkwTUtBeHc?oc=5",
       "published": "2026-10-26 12:23 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -167,7 +755,7 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT1dXbEpsdTVoRmdKdmdPQVN4QWFMbVVhWUNOdEhEQU5fZ0NyRVFGdGx5NU14NmtrNUFOenJEb1dYRHY0QlNZVFAzSUk2MDlQdzYteDU1QnpBaDVwMnU3SVFsZ0p2NHUwUG1yQ2Rzb3N0ZWwwX3FMLWNZTDhjMEJoQTJlbTNYVFRGdUFQYVFGSmh5b1NuTWxrek1NbGlwUDZ3V0NYQVZCbw?oc=5",
       "published": "2026-10-26 12:16 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -179,7 +767,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfS2V0QllxN0hGQnQ5OHhJXzgySk9YSVlTem5HWkpqU1R2MGs4WVJHV2NxV2VHTWVKUzdoVmphcmk4VGFnY2hxVUJEWFJRemxmaHpVbUNyeC0xblRqR3VnbExQZW1GV05TbVBudA?oc=5",
       "published": "2026-10-26 12:14 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -191,7 +779,7 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jNlNjZzZhTmh1a3BmMFJ6V2hmanN6Vm1LTlo1YjZ6bjBXWlo4c3d5azJGX2wyR0U5N3lzcXpiLUZHTlRhSktPdDhZS0MxNWx3amxlcXg3OTZzbnJ6OGdSMWtlNA?oc=5",
       "published": "2026-10-26 12:13 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -203,7 +791,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LYUtQbFk5dndhU2M1U244OVZ4OXlHVEIyUWpjN2hNaFhxMUplLUVBTjVRZ1daMGZ0QjdKdFktVG5zMU40N21nckhGTzYtWmg2Rm5CXw?oc=5",
       "published": "2026-10-26 12:13 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -215,7 +803,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXSzcxeFBMVjk2Z3JEamdxNFJYY1lBYllYMk5yMmplT3NLY2wyenZoa1pRU0o0d01HSmNNWnMtV1BDNkE3ZW50SDdCXzFwVHYyZnVvYUhNOHdpWVJWMTBrUEpVMzAtRldkMzFlQlZfY2Yxei0yUGlqNkNtQXhyVDg?oc=5",
       "published": "2026-10-26 12:12 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -227,7 +815,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSNE9sSFJfZ2loV0QzMnlUbkdDUnowdG1xY1YyUFpQZ1V5UGFvcVRSQ3hQMHdzZGdzZEVKRU5ZeXA4d2ZseVVZeUtBMmZkWVE2TDdtREstWEwxWDViMjRLUG1pd3FkaS1CZ3c?oc=5",
       "published": "2026-10-26 12:07 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -239,7 +827,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1YzlvQ2pXeTZ2MFlieWVVc192NkJ6SDdrbGlfcUZBWmNKRXFzcUI5VGtqeGtXSGVnVDF5dEN3V051ZmFoaHB1VXhUTDRvX211Q2NObW90TWN3VzFEUzRtczZRRmpyd0FoX05QRHJPazZVRmZob2JNTkJJaE9sazQ?oc=5",
       "published": "2026-10-26 12:03 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -251,7 +839,7 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYkJweGRUWkxfNzBjdmdkSHlldC1JVHBLb1ppMGwwYUR0VGJfWGhmRjlnZzg1eXQ2VVpvSEN2TTdmc2s2VnJVQW1iVDdPWlQ4T1dKRjNlUVZWbHQxNGNvV0tJeHlodnJnMFVlY0k4SWdKWUlSWGE3azRQSHVqSnNrMVpZcV9kSWFfdmdxN3ZaX3N3ZWtpVTdWekxfU0t3eGphbWZRRXlJZw?oc=5",
       "published": "2026-10-26 12:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -263,7 +851,7 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYkJweGRUWkxfNzBjdmdkSHlldC1JVHBLb1ppMGwwYUR0VGJfWGhmRjlnZzg1eXQ2VVpvSEN2TTdmc2s2VnJVQW1iVDdPWlQ4T1dKRjNlUVZWbHQxNGNvV0tJeHlodnJnMFVlY0k4SWdKWUlSWGE3azRQSHVqSnNrMVpZcV9kSWFfdmdxN3ZaX3N3ZWtpVTdWekxfU0t3eGphbWZRRXlJZw?oc=5",
       "published": "2026-10-26 12:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -275,7 +863,7 @@
       "link": "https://jvn.jp/jp/JVN75668103/",
       "published": "2026-10-26 12:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -287,7 +875,7 @@
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news026.html",
       "published": "2026-10-26 12:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -299,7 +887,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XTzhFYXNDejY4N0tzUDJ0TGFHcDlKdW5Fc2FEdXl0V3hneHRnY0pabGptZVhHeS15VEhPOWpKMjA2Y1JtUGJCdWwtRFc3TjhSY09mMWlmNXJiVFJCV1U5Y3NfQjU?oc=5",
       "published": "2026-10-26 12:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -311,7 +899,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XTzhFYXNDejY4N0tzUDJ0TGFHcDlKdW5Fc2FEdXl0V3hneHRnY0pabGptZVhHeS15VEhPOWpKMjA2Y1JtUGJCdWwtRFc3TjhSY09mMWlmNXJiVFJCV1U5Y3NfQjU?oc=5",
       "published": "2026-10-26 12:00 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -323,7 +911,7 @@
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGUGhla3RTcXZuOWJ0aURMRWdjMThrU1NVOXktN2EzNnZKTUd3N1ZqLU9ZM0hYX0dIV0dubHp0YXZKdnBpUmJZdEs1eUt4OE5QelNLd0RsVU5nZFBoSnBJ?oc=5",
       "published": "2026-10-26 11:59 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -335,7 +923,7 @@
       "link": "https://www.security-next.com/191931",
       "published": "2026-10-26 11:58 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -347,7 +935,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uamctT1RwTGRVQ1ZPV05wYkU5cmV0cWV0X0hqLTBFdkY5S0Z0ZDBpb2t5S1pnVDBTMlkzczhONXBHaUNvZzBPXzJ1M1FKUzFZWVpjNTBNOTdJZ3dmcVlweFJwNG1hdGUzOXc?oc=5",
       "published": "2026-10-26 11:51 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -359,7 +947,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XTUs0R0xpMkdfUHJfZ0NndXdmenFiNE5DN2w0TlpwY2JPS21iQkJ3V0pGMTV6aUJma1YxeF9NR1F3SWNXUVAzQmJscWp2d1dLMlhlYVZ5SjRYdw?oc=5",
       "published": "2026-10-26 11:50 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -371,7 +959,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCMk12YkhEMlJjc2lBTVd4SXpxSXgwelU5elF0Y182MXdUcWg0WWprU0pXR3lGUHBmYkJISUpSWlpQM29xZ3ZIWG9QVjZoU0VSblpLOHFnbGs0azY5YmRjNXdweDBwMVp0NlBrRElGcjI4WllQSlBTUGxpbUpaY0k?oc=5",
       "published": "2026-10-26 11:47 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -383,7 +971,7 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VYmFUTEQ4VFFWQWlFRk5jSmFlVG1qRFZnd1pUMVBhUmRLNjg4TXNLSDJEVEpXZXFPZkNqUWtMOXNub05xOVE3RzZPSnREWVVQQWYtYWZwcw?oc=5",
       "published": "2026-10-26 11:44 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -395,7 +983,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WV1BDaTJ1VElZeDhmTDR6dDBzOXZNQjdLVEd5WExTTmdhZTcwcTQ4NEhPdTVVRVNTZy1ZS3d3SlJfTTRBYi1mSm5aVXA0amtRNThFUVlySDFpVzBTc1dITGlMWXJCZ3ZpT3c2Wm5CbGpxc2dMNnlYMWZDNmhqcnM?oc=5",
       "published": "2026-10-26 11:41 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -407,7 +995,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6UVg4U2N1QXNfTjZuZkNxaGJVcVk1azdoMWNqMDVWNVNoMFFVMGJuZ0thZy14RURUMlJIZUZoaER0c250bV9kVzEzRlRtamI4bXF0YXlyZEpqTjl6TW5LUDdXR1NBS3dz?oc=5",
       "published": "2026-10-26 11:36 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -419,7 +1007,7 @@
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54d1h2OC1jUC1tSFpMeFhEaHFUeVZSYXkySTRQUnpTZU84U0duTUpZV055LUdDam9IUFl4STJNN3MyTkJ3MnBLTDltZw?oc=5",
       "published": "2026-10-26 11:33 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -431,7 +1019,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2M0tiMFZwRnBUTm8yeFBRZXgwWm1BdXlPcERIb2dUVmhHMGN2d1dqR0RCdVZDUzJZMnd0ZmJ1cHZySGRUNWFCSDMwcEFDVWE1ME5PcTNFWk9scG5tV3c?oc=5",
       "published": "2026-10-26 11:33 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -443,7 +1031,7 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sbnFZRGhjcTZKaTlXbGNybzhEY2lpMmJBbG5oVzFRQ1V3eGxxRUZKNC1kR0FfVTRQcTEtbmd4U01uTlNpSDg4TUVDTkdneXBvdXVOSzFCQmtYZjhvckpDRHZLUzhDdW84WWdDUTllenhxV0VZUldKZ3Q1Q2gzR3M?oc=5",
       "published": "2026-10-26 11:33 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -455,7 +1043,7 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaUxmbVlkZUFSQnpDMTB5Zk9zS2w2RE5CcWsyd1ZyQjVGNGNpWkQ3Q0wwZHdwakNWN1hmLTVoMlEyVUpyMi1sZDRydWYwYnNFNUVFVi1kVHFLTEU2VFZjNWE3WkVFX1h5ZV9wR1VUaTI2dHJ4TFo0SWlXVFVESWdOVHlxR0RUZXdyUmk4WjVR0gGTAUFVX3lxTE9LamNCNERKWEEzWEptOGhibUJjUVBSM002VDc5bllDQmxJbml4d2VuNkN3cUpIQnlGbFJFQkcyLWlycDA4RS1BclM0bGN1YTh5SEJ1czNaVDF1dExjVl9STkNEUUVaWE5FZXJhbm9LVHBIa01qQ2thWmkwZTdzVjJZZTV0aVFDYkJIUUgtN0o1LTJaVQ?oc=5",
       "published": "2026-10-26 11:33 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -467,7 +1055,7 @@
       "link": "https://internet.watch.impress.co.jp/docs/shopping/2151007.html",
       "published": "2026-10-26 11:30 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -479,7 +1067,7 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcjBCRzlyRmthWjFyVWpkUDFROFhZZWNFbnNpZHVmbUtwRWczMEczRkh3NGdzdnFMWVlDbGRYcTlORW1KYXRPOExSY3pDVFlJX25JWWZ1T3JaaU5sZHo2N21ES1R5SXVRekYwTHpVSFRERTFJYUdUcTV3T1NuZDh4TzF6azZiVzJMUWpRUGVXRVRMNi12OHpPX3gtYjdYVVdXUjdCT0hZOVdERVNmSjNPUmo2aDNWZXZmdmpGdw?oc=5",
       "published": "2026-10-26 11:15 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -491,7 +1079,7 @@
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQel9BZ0pmX0VDYjZXcGM4bzJPdU94dUh2Z194RmRUU3R6d2JUd2l6VE1NS2ZPaUpISXJ2YVJsbFFnZUkyRWltMlNCM1o3aUFVZ1NlbFJnOThwNGxoMEUwcjVWMkFkeVIyenB3dUYyYXRkRVFzcl9UcnA1WXkxRVJCeXlRbktfLUFXN0tNcXZkR0dpbmttZ3NQZDNTcFBGNHY2Tm0zbGdaUEdUWkZHMFRabmt5YXNvMXBrTFU5OGpVdldnMkppRE5kbzdzeU1obXJrQUlOMjhrV0hrZWdnZlJrQnBn?oc=5",
       "published": "2026-10-04 23:26 UTC+09:00",
       "detected": "2026-10-26 13:11 UTC+09:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "kind": "news",
@@ -3011,594 +3599,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uUnVOd3JMcERraHFVVzZnNkljMkJLa3VEWkFvTWJUemlqaXVXTDl1VzFGOGtSX2RUa0NHek41SlBmcmxJSDNaamFlc2Z2a1A0VlJRU2hyUkdtRmQ0X3haekVB?oc=5",
       "published": "2026-10-25 06:15 UTC+09:00",
       "detected": "2026-10-25 10:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ふるさと納税ポータルサイト「ふるさとチョイス」への不正アクセス検知に伴うサービス一時停止について（10月21日更新） - 長井市ホームページ",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtSmdmQmd4c0RLSGdSdjY4X1BQYWpHdVNXMkZ2anMxbzNGM0J1eWJIb1otYWhFVGNpam1fLTdrbVE4RkQ2MF9ET1VfcHA3VjJyVng5WEdsVGN5WndsUkxsa2lQb3o1S1pYMlBhTXY0Wlk1NEVkMmhjS0c3dUx0aHc?oc=5",
-      "published": "2026-10-21 17:36 UTC+09:00",
-      "detected": "2026-10-25 10:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ふるさと納税ポータルサイト「ふるさとチョイス」における不正アクセス検知に伴うサービスの一時停止について - 鳩山町ホームページ",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XLV83cUpTUm93UTFXS1JlVlU1c2dFOVQxdVFpUG5RTG5GeGNBU010LTVsZTI5cWo4Y09jVGpBQ2NvU0VWbkd4dGhTRkdOOHE2emJtZmxxVUItV1p6bHBiaHZ5cTZnSXZOY3ozeURwMHBHaHdhdGpmeg?oc=5",
-      "published": "2026-10-21 09:14 UTC+09:00",
-      "detected": "2026-10-25 10:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: NISC/国家サイバー統括室",
-      "category": "advisory",
-      "lang": "ja",
-      "priority": "news",
-      "title": "国家サイバー統括室、「もはや情報システム部門だけの問題ではありません」と不正アクセス事案を踏まえ注意喚起 IPA、総務省、経産省、金融庁も注意喚起を実施 (INTERNET Watch) - NewsPicks",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPSHFFOXlHTHh6T0NkWWNxN1huQXhvcVA4dEpRZVpmS2JVOXo0NTIwOXcwb3FfR3Fvd2x2NmduSjlWYnJReTRVYkJYVi0?oc=5",
-      "published": "2026-10-09 16:00 UTC+09:00",
-      "detected": "2026-10-25 10:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMOが不正アクセス被害で「能動的サイバー防御」を異例の要請 政府側には慎重論も - 東京報道新聞",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6UXhQOU5TSzFDbHdtOHdFRDhoNXFCYTU2UzRrbDF0SlBNM0MxUF9paFdtSGZBdHlqZHJYQ3QwSXVScHpIeVM2VENDTEw0N0E3RzNB?oc=5",
-      "published": "2026-10-25 08:00 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "相次ぐサイバー攻撃 「うちは狙われない」は禁物 福岡の中小企業も基本対策徹底を QTnet・江川哲也氏に聞く - 西日本新聞me",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zdk5LR0dOLW0yaXRvUXFQenMwTEpvSTJDZUFhTlR3Z2NiM1BxekNING5hTi1SZU9MTV8xRnNMY3AwTHNzV1BIa0pybkkwVzJtLW1vWHRB?oc=5",
-      "published": "2026-10-25 06:00 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "サイバー攻撃に中小企業恐々 身代金型被害の6割「人ごとじゃない」駆け込み対策も - 西日本新聞me",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jckZuWFFVU19jZHBiYlZ3UTNmeXNNS2hYZi1tcmY1T0FhRWhraU5WaHl0dDVvVWRxclpCV2dzU05PQTBoMWVoc3Ryb25ObmFTZU1hazdR?oc=5",
-      "published": "2026-10-25 06:00 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMOが政府に「能動的サイバー防御」緊急要請 不正アクセス受け 利用者に一律5000円の見舞金、不正取引が確認された場合は損失を補償する方針 - TBS NEWS DIG",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00NEZ4Zmg4akNEcV85WEpWcXlhX3RYVTVOWFBQYXF4OWQyRjlESTgtTFdQSF81VnBscDBkYkZ6TWNualdkcGpSaWFCejh4M3Y0eE9NTlVzNmFsNFRkdlhpUDM4N08?oc=5",
-      "published": "2026-10-25 05:37 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMO 国にサイバー防御緊急要請 口座情報流出 損失は補償 全顧客に見舞金5000円 - スポニチ Sponichi Annex",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVFsX2ZuNjRQbS1CdFMtd1RvTGZxd0UwYUdVS3RxdkxqMy01dWdya09ya1NYVmQ4bXNZNDh5elRuSmpYWXFld2ZKbEk5TGN4ZVlkX0kyNWhIbHhyWE16RkNsZkF4b3RNcWlnT2M0LXhMUW9sRDhyalRDQmZCY0JDRThxSV9sQjA5Z2p0TDRR?oc=5",
-      "published": "2026-10-25 05:30 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "官民挙げ無害化急務 不正アクセス サイバー防御発動に課題 - 岐阜新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnYXBxVVZWNEZUaVh5R2Y1cG1LREZMbVR4ZEhwaFVadHBZdGMwV21kZWotZEMwbUVDZzdDeW9aVHZaQ1djTG9kX0tEb2VOMmp5cjlraEVB?oc=5",
-      "published": "2026-10-25 05:00 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "エムスリー「MR君」に不正アクセス、会員等25,775名と製薬担当者2,260名の情報漏えい - ビジネス+IT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uVlJkclMyQmJ3dTVycVphOFlxTlFJM2tPOFU1Zm85Sk41U3dEWE1sN3RGWUVxVzdfSDNiZm84V1Bld3NYc1QxT1pNSXd3LTE5azJN?oc=5",
-      "published": "2026-10-24 11:18 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「ふるさとチョイス」への不正アクセスに伴う個人情報の流出（10/21更新） - 東広島市",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uVHNFOVlfQ3pId08weDJBSFRBSnh6MFo1Qkw4R21CeFpBejlDY3VDblZFRmhCUGhvRTlCWGhrQmlQWXIwSDl4UFVUUk9tUTh5ZTFUcVpUWWZCZzA4UF9iVG9MWGx0cXJSV2dub0hqamVRRGZtN2xKZENR?oc=5",
-      "published": "2026-10-20 18:09 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "湯沢町移住定住ポータルサイト及びYuzaWorkへの不正アクセスによる個人情報漏えいのおそれについて - 湯沢町",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUhyblFoU1BnaDIwYnBXYVJ4a0NDLURFU1lIQ2JWOGtPeDhxT0pNMXZ4ODRqWU1tTW05YlJ0QjI1c0xmN2oxRzNCLThnMXkxYm9wc0pHaVJzQlhnN3M0SUJHd0VuYlB1SVhPSHhGSTJZam1NMG9ld1hsTUg0YTNrbnpZcm1xUWc5dVlsR1QwcW9zOXktVVUzMjFjMHFOUGtF?oc=5",
-      "published": "2026-10-20 04:52 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: NISC/国家サイバー統括室",
-      "category": "advisory",
-      "lang": "ja",
-      "priority": "news",
-      "title": "《サイバー防衛弱小国ニッポン》巧妙化するハッカー集団の攻撃に政府は打つ手なし 100億円以上の税金を投じた「国家サイバー統括室」は何をしていたのか - マネーポストWEB",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PMXcyVFd1TjFUSWN0d1NrdHdqc1B2WWRTSzc3WktTWF9kME81dU5hbWdxMnU3cTBSZVZuRkJLR0dEZHVVVTdB?oc=5",
-      "published": "2026-10-17 07:00 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "不正アクセス、クラウドサービスが急所 顧客のマツダなど一斉被害 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tdGdkcHdUaGRnTDEyb1lfd3daQWtZSThUUnJrVHBGYnJyRFF3cFpvekVSTFNGM0lPUkl1YlRTc2UyOERjV3N2ZmNHNjQ1NS1weUJjcDZkSUZ6MXpXTktobDlTd3dSQlk2Rm1nWg?oc=5",
-      "published": "2026-10-14 16:00 UTC+09:00",
-      "detected": "2026-10-25 08:02 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ＧＭＯ、国に能動的サイバー防御緊急要請 不正取引を確認 口座情報流出、損失は補償 - 山陰中央新報デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1raFMyRWYzbWZiU3pId0RFT0dERy0wdVAwLUZDNHRfODBpQVhJcWpGN1BoUXIxRUlXV2JGZ2xpM0lPQ0hIUGItbFRWVFVPTGk2NHZiaUFudWVQQXM?oc=5",
-      "published": "2026-10-25 04:00 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「人間業でないレベルの攻撃」が急増 不正アクセスで流出や停止 今後は？（テレビ朝日系（ANN）） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXpWYTBFNzFPakFJMVRFV1B0ZFNDOWhiWng5TE10dkFlejBtbUZOTWJVX2EtRnR2VVNEN2ZYX1d5YzlpMGREWGs4OTc3TjgwOE9PcGFwVGRhZmg5TFFLSHVmNzBCOGlITzRRYXhPSHRvM2RIM1ZycDRXLTh4V1JBYmtlTHIxRkxv?oc=5",
-      "published": "2026-10-25 02:21 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "不正アクセス：GMO5000円、タイムズ3000円 「見舞金 安すぎる」 被害者、将来も続く不安 - 毎日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XQU1tcVRWUnpjckU1ZkY5YUNmQmt5b2o1UVRBcEUyR2s0NlQxWFVaNFBlSjVaS0dkaXlqaDZuUVpockZpa01ib0REbnVway1sX3NhZG5zRXZkdWJWRzZ6RXRTdHJpTEJV?oc=5",
-      "published": "2026-10-25 02:02 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "国にサイバー防御緊急要請　GMO、不正アクセス確認　適用なら初、損失を補償　見舞金５千円 - 日刊スポーツ",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FemU0bkFXZjRzWFRMX2NHRVJ5cjNwQXVybUxsTm9DZ1c0OHNrMU9Gd1lXamVITWhnSzlaS1NuSE9qYnhwRjc1dnluUEwySmRybWY5T2JadUJpLXJPM2ItQlZHQU5BZEREN0VocDNnSdIBd0FVX3lxTE1NUFhjNHh3NnAzRlc5dExBX1ZUb1Mxa29sS2N2VzU0VEJlVlJEanIycTRsYWExY0hfRFZCaGoxYjZQcWZtRWwxTE9TTnBPZEVJMkhCV0lqbkx4N1VPVUJXZnV2TjZCeVNRRVBqVE5RWGZ6ZnF0Y3RJ?oc=5",
-      "published": "2026-10-24 17:54 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "企業サイトで相次ぐ個人情報流出「数十秒で攻撃できてしまう」専門家が指摘する中国製AIの脅威 - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM2paaWtJQ2ZfSjQ4WnlaRFpIWEVwMTFER1pGRHY0N0xRdVBkMi1UVmNYU3FIb01SZERkR1RXSmhOYmE5V3hmVTc4S0FyTlVrMTlWX1Y4bXpvblZzN1VrbFlGMVczWjNtYVRsLXdRc0VTTFpEUmpHWUpuZlNBRW9MMnRqY0dMa1FWR3pfTNIBhgFBVV95cUxQM25ZX0NQd29FX0dSc1k5QXR6cjNXU0UyME9pRllBa21fRnBnQUxzMXh6Y1VZUmQzMEltU0dlbXFxNGJKaVMzNERCQ1dhSGJLVUxkWktUdjBVeW1uYWVuMmYtZ3FBWC10UWtvWVZuT2tpLUJZSFpEN3p6NEZQbmZfemM2ZW4tQQ?oc=5",
-      "published": "2026-10-24 17:50 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: NISC/国家サイバー統括室",
-      "category": "advisory",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「情シスだけの問題でない」「必要な投資を」 国家サイバー統括室、相次ぐ不正アクセスに見せた“危機感” - ニコニコニュース",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FZ3pSNHJqRW96UHE3YW1sTnFmMUVnZEJ3NWpwUDFQTlJZc3pyc3kzb2tJWHFxX3kxMlZsallSTHpWSEk3MGpEQWI0YW80MkxHUF9CY3hOMUdJbVJPRHF1OUZiMzU2d2pVUnc4Nl9wal96bDdSZTNUYTZuaw?oc=5",
-      "published": "2026-10-09 12:09 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: NISC/国家サイバー統括室",
-      "category": "advisory",
-      "lang": "ja",
-      "priority": "news",
-      "title": "国家サイバー統括室、高度化する AI をふまえ「Project YATA-Shield」始動 - Excite エキサイト",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sU1cxOHp6Q0ZLdUFlVFhDWmMzbEdaVm9yQjhqWGZCY2hKQ3JtdEIxOHpwLXNrM1hZU29SX0QxLUhUMlpHQW9RSHpTamtSdlNUNUl5a2xpLW5PemJ0Ml9kd3gya3M1amdlRDNv?oc=5",
-      "published": "2026-05-28 16:00 UTC+09:00",
-      "detected": "2026-10-25 05:33 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「人間業でないレベルの攻撃」が急増 不正アクセスで流出や停止 今後は？ - ABEMA TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvUGhwSllhTTZBaXVPcnY5Tl9ySDI3eWhJekU0Sm40Yk1qdy1pY29Qalk0X3IxdTYzdGJMU3o1VEZlUHZxVkhnOUx5VnMzM24zWEZVNA?oc=5",
-      "published": "2026-10-25 01:15 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「人間業でないレベルの攻撃」が急増 不正アクセスで流出や停止 今後は？ - テレ朝NEWS",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZeUdXajAzYkEzZmtNaEcyU1lGZVNxdWExWEY4M0M5NEZyMnFLdXlCUDVzXzlrWjFFRDFFXzI1NS1NdUpCM1QzT045SHNVc2l4aXdjZFotRXUzZmtMYXYwblB1TDhJalVTTE1KVGJ2QTlDQQ?oc=5",
-      "published": "2026-10-25 01:07 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "英政府、3日分の食料・水備蓄呼びかけ 災害やサイバー攻撃に備え - 朝日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kNGg0VVFBX0FObUVrcTBIejFkSVhZa04ydkVibGFTVUJXeUFWUDN0ZjdnMlJxazNFcndzdDE1a2ozYkRSMlNiR1U0XzZubldEci1wR0k2YWEwOXNjNjF2V1BLNDZnWE0?oc=5",
-      "published": "2026-10-25 00:30 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMO、不正アクセス受け「能動的サイバー防御」適用を政府に緊急要請 - LOGI-BIZ online",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB5b3plT1Nja3ZQdVR4OEJ2NllKY0QzdE1lVXNGNmVhbld5N3hoamV4WXZvMkp4ZlUzQU5IN0NoTWtKYS15M2hxOU1qYw?oc=5",
-      "published": "2026-10-24 23:33 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ＧＭＯ不正アクセス、「攻撃者」から金銭要求も…ネット上に「数十億円の損害与えた」との主張 - 読売新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmSDA0blR4LUVYdHhaUjMyT2Z0b1NDX08ybUhxcmxzWE1BRVA0enJYazV3ZEVmUEY3a1RRcUZjWWhKVlpoRENZa0pYRTVYTEJjRTB4cHRHeTVtbnZnM2hEV0xMR0E?oc=5",
-      "published": "2026-10-24 22:33 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ＧＭＯの「能動的サイバー防御」緊急要請、政府関係者「求めに応じ発動決める制度ではない」 - 読売新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10Z0NrQ3ZIckxkcEIxV2RWTkJJUDdzYmVobkhJd1I4ZlBxb3lxZ2pJR3RQUEFiUjZSWVBWaDRiQlN0Rkl3TlQ5RG82QkVMQXdXTFVNSWNKV3BoaHpFVW1hY0pGQWtqZw?oc=5",
-      "published": "2026-10-24 20:51 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "企業サイトで相次ぐ個人情報流出「数十秒で攻撃できてしまう」専門家が指摘する中国製AIの脅威 - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOElqYmFYUGJzR1RFdVFQVkRBOVBFOXRwQ1pjeTR0UXlKdERRN05QX285cXIxRzVYSnVRYkg4SmlfeHgzWTcxc0dsRF9CaElyeHYyWnFXSnphamhqWTFJdm9mZXAtSm9wc044bkhWM2dGNXZ4b2JMTGpMb3YxWENIaNIBhgFBVV95cUxQM25ZX0NQd29FX0dSc1k5QXR6cjNXU0UyME9pRllBa21fRnBnQUxzMXh6Y1VZUmQzMEltU0dlbXFxNGJKaVMzNERCQ1dhSGJLVUxkWktUdjBVeW1uYWVuMmYtZ3FBWC10UWtvWVZuT2tpLUJZSFpEN3p6NEZQbmZfemM2ZW4tQQ?oc=5",
-      "published": "2026-10-24 17:50 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "FX自動取引、トレーダー「いったん止める」 GMO不正アクセスで動揺 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wSWhnbzRwR19xdFZhb1JybmtOWFJaOTBGcWFUQktsbHpsN0lMRGxONXJVdy0wWnh4ZGVIeHdXeXBFRlJWSHIwZ245NHlMRFZaZm9sN1RSMW4tYzNhYzk5bGtQeDZrYjZOZkRSNQ?oc=5",
-      "published": "2026-10-24 14:19 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ＧＭＯ、情報流出確認し全利用者に見舞金 - 京都新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OWGttd043MDlrUldpdzFrMW1KY3FMMjJKbG5lT0paQTRGWTdfcTJjelpEeFV2QkFyUXRzMXRPRUx2T0tCV2FoekVjMGNNdWVDQ2V0MGZzSFQ?oc=5",
-      "published": "2026-10-24 12:50 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "【不正アクセス】犯罪被害の危険続く 責任や補償、司法決着へ - 山陽新聞",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uVlY2NlRVVExwMi1kN1ZqUkRqVWNUR2dRUDFnTnlEdExfWk5qYndROTh1V0RYN054SUdpaERFX1Z4aVNFODBlZTJaUmpHVzA0NVE?oc=5",
-      "published": "2026-10-24 10:27 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "10日間のうちに国内有名企業10社超で情報漏洩・障害・サイバー攻撃被害……まだまだ増える可能性 - EnterpriseZine",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aMWJJa01JVzdWTkpEX0traTRqRXJjUVo3SkQwRy1OUUItSGY1Tm9vTFIyckluZndKZ1d4SGdXcWRHWTRJZkRQX2ttNmNCblVDTHViRlV3?oc=5",
-      "published": "2026-09-29 16:00 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "CISA 関連 (Google News)",
-      "category": "advisory",
-      "lang": "en",
-      "priority": "news",
-      "title": "CISA Warns of SonicWall SMA1000 Vulnerabilities Actively Exploited in Attacks - CyberSecurityNews",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGR4WjdzWm5welRaNnhsaXBCcWNEMWFiOUZaZ1JGN0hnZFJ4OURSa2FEYlJzaUdXTVRhamNyQkNQU0JYSzhIZ0FoNG41TVRMREQ1WGhPaHoyVkdUNHJCenZQTVZOSEZUSlZ3UFNkdEtfX3JfcmJ6QmlweGdaOGgzM9IBhgFBVV95cUxPamMtdzBqTHlIdTNSRmcyMUZscGJRWE9JeTM5cmhDWHRxUHdYdjloTmp1eldjSkdmZ3lPQjZjNnBBNW5oQ2IxZmJMTV96a1lfek9zSXZWQmVZUjN4Rko1VXBFM3hIR3pPWko4cmxEenRMVEFfN093R2dhM0FvMTllNWdfM05hZw?oc=5",
-      "published": "2026-09-02 16:00 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "CISA 関連 (Google News)",
-      "category": "advisory",
-      "lang": "en",
-      "priority": "news",
-      "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks - CyberSecurityNews",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuZTN6ZXZYZlB0dzVFT3BuQlI3blNpTmFqY2VlVUVWTHBmRnBqLXoyeHhzREhiN1Q1Y3RERHhZTGpCX2lJZWlWaVJQa2FKM3BSamdkQkdvNlBXWFJK0gFiQVVfeXFMTVRKT1EwRXVRWkozdzg5MklzSVhPZDhTY3kyRjdpSnVjQmdoZWtkdWJrNmRIeVNqSUJCR3R4U1U0TEtjcXdITWFaWkpDZlA4d2VNQjl2NHFXY0QxNV9CcTNobnc?oc=5",
-      "published": "2026-08-18 16:00 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "CISA 関連 (Google News)",
-      "category": "advisory",
-      "lang": "en",
-      "priority": "news",
-      "title": "CISA Reopens Comment Opportunity on Cyber Incident Reporting Requirements - Wiley Law",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY2pvQWs4NDdEWTd2TlhtUGNGMmlZc0stYXBDTURDa2lxQzVsR054cGhVT0s5SkJleG43ZUFSeE9NTkpYV1NwRm9vRGExWWwzOTJDeGxtNVZSMWR0cl9hZmZIRDlDeHpkanZYZUFld2lKZ241VmpDdjNLTDZ1OEQ4OWlOdFE2dVhpaEpKazA1OEZyWlF3NzF6ZXZuWkJ6WTJEMXBF?oc=5",
-      "published": "2026-02-13 17:00 UTC+09:00",
-      "detected": "2026-10-25 03:00 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ふるさとチョイスの個人情報漏えい いわき市 市民と納税者に注意喚起 - いわき民報社",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHcHA1X3hveDM5LXNoT09iSjkxZjNFQXB1Mnk0QWFkU185Z013cDVRQXZfdUwtWWZYVUNuamRqTklraVBDWmg4Mmw0ckN6bEVMX0lVcFh3RGVqZw?oc=5",
-      "published": "2026-10-24 23:08 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMO、能動的サイバー防御適用を政府に要請 不正アクセスで (毎日新聞) - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOUE2UUl4dE9PSG1kN2FjRnZpNFRVcnVncUxWSnNRbFdJVUhsRzNqaUlZTGNsbnI2ZnJWdHZQUXpucFhyQlNOM1ZfdUo2OUdJNy0xdE1vQlo3X2hMZzJrQlF6NGlzemY0QWZBZWRMM1FqZlBoUHJDbVdVV0U1NWxtVTI4VE12d2YxTE85ckRR?oc=5",
-      "published": "2026-10-24 22:43 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMO、能動的サイバー防御適用を政府に要請 不正アクセスで - 毎日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OQzc2cXNSQnJyaWFfRlNCRXBRVDVXUFhPSTI0ZlVGb0twdHNGeG9nbm1UVkNIX0FVQzM4d2xsQjV2UkxvRVJVdWJWU2pIeEJLcFFsZDlFLUE5OHFYSVlnQmNmMUZBaUI3?oc=5",
-      "published": "2026-10-24 22:43 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "ＧＭＯ不正アクセス、「攻撃者」から金銭要求も…ネット上に「数十億円の損害与えた」との主張（読売新聞オンライン） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yYk5pczByQUdtRi16Y1RtcDJHZkc5SkZUcjRJeVNIendtaDJnV1FiLU1ycHRkdnhmdkFDZmhZZm5HM2hkQ3UwbFZoQXBXUU1WYlZkYXFGb3A3dmdnV1dOSHRvQnZraExoQTBjNXMtVWFiem5IeE93ZzBwS1hQOVU?oc=5",
-      "published": "2026-10-24 22:34 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "【葉山町】ふるさとチョイスへの不正アクセスで個人情報約445万件が流出｜葉山町が注意喚起 - 湘南人",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41ekFSMHU5NUFtTFdJaVJXUXpxbUZ0SHQ4Nk1kY1ZWTHJVNmZMeTN3V2R5M0dDSVNrN25IQm1WaEpmYndnU0ZHaS0yM003RC1CNVZVRWhBMThyN2xpdi1DYXNRTWxxMWJmMjY2VlNyVldtVGFGdTZyNA?oc=5",
-      "published": "2026-10-24 19:57 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 脆弱性",
-      "category": "vuln",
-      "lang": "ja",
-      "priority": "news",
-      "title": "クラウドフレアCEO、PHP2Shellに続く「複数の重大な脆弱性」を把握 AIによる発見加速、今後数カ月の対応増を警告 - 合同会社ロケットボーイズ",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnRtZ2E2SjVpZmpYbkF2aGhycXM1TmlLRzJzRnJ5SlBPYkxOSHZ3Yy1mUUZRNGViTTVKRkNPZUV5eXhTdzlfRF9SejEwSzVBN3BqOTRyV0NfX1NqVXgzOUZVREtONVB0X001VEg2SGwtaWo5MjlfY3Fnak1rT1Bld0QzM25Kc01sVUVUQUs4cDBBa1pnZzNrb0NxUHd6ZEVadzRYX3hB?oc=5",
-      "published": "2026-10-24 19:16 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMO、能動的サイバー防御適用を政府に要請 不正アクセスで（毎日新聞） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsbk93Y1FMNE1TN0Jmb3BsZnlfbGxKb3FKZDk3b0lQcVpHbDVsaVdic3ktRG9TZHFkeFkwRzlsQ3p5bllQNVhfTU9zRDFTVjVyMXU1VWktaWtFak05aEQzaTc2WU1OWkltclZvVVk4U2Izbnl3by1PeVE4X201RUE?oc=5",
-      "published": "2026-10-24 18:40 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "直近で相次いでいる国内組織における不正アクセスに関する注意喚起 - JPCERT コーディネーションセンター",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DQ3NsVWUtUGJ4Mk5FcFlBN2ZxTnNjT2lVdThnTHVrWmpzelluYTJxQ2lqWDZ2S1FSV2poRkdibEJhT1pDQld6NTZoLWd4amNHTHhHU3ZPQ0hyZw?oc=5",
-      "published": "2026-10-24 18:13 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 脆弱性",
-      "category": "vuln",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認 - 合同会社ロケットボーイズ",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVDNCYmhWdkdlNFotZmxwWmJUdDk0cFdjRU5qU3htRUNFaGlFNDZlQWU3aVJSYkt3LV92VEtxSENHckJQWG5IaG5zZGxxUmdaUWR2LXNGUnBiSmhoMGxCcUxGYUszQ0hycXdDdDJnRHp4OUtSN2hva3lyYmZiTEVIeUlxckJfWGVCbmNkY1Z0R296S1NOanc?oc=5",
-      "published": "2026-10-24 17:58 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「1枚いくらで買うのか」男から非通知の電話 個人情報と引き換えに金銭を要求 JR静岡駅の地下駐車場が保管する個人情報漏洩か（テレビ静岡NEWS） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CaVI4Y2prMTRaZjVhRUtLTVMtdGItZVp4M0szNUI1enRZaW4xWFZxbTgxd2E0RzFWaGpmZFlJS2g3TkNZYWNSbmdfTWd2Y2l1d2pVZklWMF8zX0I3dW9BaGRZcDl6NU1jMUhXbTUyZGIzNXRwMkdIRDA5cExBMnM?oc=5",
-      "published": "2026-10-24 17:26 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "GMO 不正アクセス確認 国に「能動的サイバー防御」緊急要請 損失を補償 全利用者に見舞金5000円 - テレ東BIZ",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MSDNSVnVacWVxUEtHNk5LTGVfSGRUOVZlQjdCa01vSlhCeEtyc0tlbFRIRmFlVC1NYWhXZjlVd1dxamdMd1FveEZyQWlDcE9naEpfMVdsTWtlZURYb19wVWxNMA?oc=5",
-      "published": "2026-10-24 17:20 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "「ゴミ袋に入った紛失届を拾った。1枚いくらで買うんだ?」静岡駅前地下駐車場「エキパ」で個人情報流出か 情報と引き換えに金銭を要求 相手が読み上げた情報と紛失記録が一致=静岡（静岡放送（SBS）） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uNkhXbUVXMFJHV09MTTR3SktTRlBDcXpXMEtxUGUxM1JReEpLcWdPTUVvRDg2SngtSXFlZm9SVE5sM0N6bW4wd21fSGtEOUNMWC1KSk13OGxlRmNwN3JKdDdmLVBDRmxiSThQUFBmX1pCaGw4aWVMalllMGRqMHc?oc=5",
-      "published": "2026-10-24 17:09 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 情報漏えい",
-      "category": "breach",
-      "lang": "ja",
-      "priority": "news",
-      "title": "【情報漏洩】企業の16.2％が経験、大企業は30.2％で全体を大きく上回る。「分からない」も14.8％、情報漏洩の実態把握や対策に課題か - Manegy[マネジー]",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UWXgtSmR4bUFobVJJTk55YVd3WTlYaWJJRGFZYjNvRGtkdzVNZVJ1UW5NZ2ZJb21OdzdZMlRHZHloZ2doNUN6ajRDcVc2b0dtR2J3?oc=5",
-      "published": "2026-10-24 17:00 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
-      "is_new": false
-    },
-    {
-      "kind": "news",
-      "source": "Google News: 不正アクセス/サイバー攻撃",
-      "category": "news",
-      "lang": "ja",
-      "priority": "news",
-      "title": "社説：サイバー攻撃激化 危機感を共有して対処急げ - 京都新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QZnFrRVdhWUlzT29nUHd2NjMwTGIyWlc1MW5ISnlHazBjTVFKd1dqODlsZ0xCZW94dG1lMWlrOXBZTHBYQjJuSGM1S0JNbHNPVGlMVG1WOHQ?oc=5",
-      "published": "2026-10-24 16:00 UTC+09:00",
-      "detected": "2026-10-24 23:23 UTC+09:00",
       "is_new": false
     }
   ]
